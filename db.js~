@@ -1,0 +1,6 @@
+var mongoose = require('mongoose')
+mongoose.connect('mongodb://localhost/social', function () {
+var Schema=mongoose.Schema, ObjectId=Schema.ObjectId;
+  console.log('mongodb connected')
+})
+module.exports = mongoose

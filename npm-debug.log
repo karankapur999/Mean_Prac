@@ -1,0 +1,2390 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'body-parser' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /usr/bin/node
+5 warn package.json socialapp@ No description
+6 warn package.json socialapp@ No repository field.
+7 warn package.json socialapp@ No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'body-parser', null ]
+10 verbose cache add name=undefined spec="body-parser" args=["body-parser",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'body-parser',
+11 verbose parsed url   path: 'body-parser',
+11 verbose parsed url   href: 'body-parser' }
+12 silly lockFile 14cf125c-body-parser body-parser
+13 verbose lock body-parser /home/karan/.npm/14cf125c-body-parser.lock
+14 silly lockFile 14cf125c-body-parser body-parser
+15 silly lockFile 14cf125c-body-parser body-parser
+16 verbose addNamed [ 'body-parser', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 9f665704-body-parser body-parser@
+19 verbose lock body-parser@ /home/karan/.npm/9f665704-body-parser.lock
+20 silly addNameRange { name: 'body-parser', range: '*', hasData: false }
+21 verbose request where is /body-parser
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 183d6c9ee53af58f
+24 verbose url raw /body-parser
+25 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+26 verbose url resolved https://registry.npmjs.org/body-parser
+27 verbose request where is https://registry.npmjs.org/body-parser
+28 info trying registry request attempt 1 at 13:34:48
+29 verbose etag "1X110NJOXQGQD6OXPAK6D2GCT"
+30 http GET https://registry.npmjs.org/body-parser
+31 http 304 https://registry.npmjs.org/body-parser
+32 silly registry.get cb [ 304,
+32 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:52 GMT',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     'cache-control': 'max-age=60',
+32 silly registry.get     etag: '"1X110NJOXQGQD6OXPAK6D2GCT"',
+32 silly registry.get     age: '47',
+32 silly registry.get     connection: 'keep-alive',
+32 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+32 silly registry.get     'x-cache': 'HIT',
+32 silly registry.get     'x-cache-hits': '3',
+32 silly registry.get     'x-timer': 'S1434096292.894768,VS0,VE0',
+32 silly registry.get     vary: 'Accept' } ]
+33 verbose etag https://registry.npmjs.org/body-parser from cache
+34 silly addNameRange number 2 { name: 'body-parser', range: '*', hasData: true }
+35 silly addNameRange versions [ 'body-parser',
+35 silly addNameRange   [ '1.0.0',
+35 silly addNameRange     '1.0.1',
+35 silly addNameRange     '1.0.2',
+35 silly addNameRange     '1.1.0',
+35 silly addNameRange     '1.1.1',
+35 silly addNameRange     '1.1.2',
+35 silly addNameRange     '1.2.0',
+35 silly addNameRange     '1.2.1',
+35 silly addNameRange     '1.2.2',
+35 silly addNameRange     '1.3.0',
+35 silly addNameRange     '1.3.1',
+35 silly addNameRange     '1.4.0',
+35 silly addNameRange     '1.4.1',
+35 silly addNameRange     '1.4.2',
+35 silly addNameRange     '1.4.3',
+35 silly addNameRange     '1.5.0',
+35 silly addNameRange     '1.5.1',
+35 silly addNameRange     '1.5.2',
+35 silly addNameRange     '1.6.0',
+35 silly addNameRange     '1.6.1',
+35 silly addNameRange     '1.6.2',
+35 silly addNameRange     '1.6.3',
+35 silly addNameRange     '1.6.4',
+35 silly addNameRange     '1.6.5',
+35 silly addNameRange     '1.6.6',
+35 silly addNameRange     '1.6.7',
+35 silly addNameRange     '1.7.0',
+35 silly addNameRange     '1.8.0',
+35 silly addNameRange     '1.8.1',
+35 silly addNameRange     '1.8.2',
+35 silly addNameRange     '1.8.3',
+35 silly addNameRange     '1.8.4',
+35 silly addNameRange     '1.9.0',
+35 silly addNameRange     '1.9.1',
+35 silly addNameRange     '1.9.2',
+35 silly addNameRange     '1.9.3',
+35 silly addNameRange     '1.10.0',
+35 silly addNameRange     '1.10.1',
+35 silly addNameRange     '1.10.2',
+35 silly addNameRange     '1.11.0',
+35 silly addNameRange     '1.12.0',
+35 silly addNameRange     '1.12.1',
+35 silly addNameRange     '1.12.2',
+35 silly addNameRange     '1.12.3',
+35 silly addNameRange     '1.12.4' ] ]
+36 verbose addNamed [ 'body-parser', '1.12.4' ]
+37 verbose addNamed [ '1.12.4', '1.12.4' ]
+38 silly lockFile b06c8939-body-parser-1-12-4 body-parser@1.12.4
+39 verbose lock body-parser@1.12.4 /home/karan/.npm/b06c8939-body-parser-1-12-4.lock
+40 silly lockFile b06c8939-body-parser-1-12-4 body-parser@1.12.4
+41 silly lockFile b06c8939-body-parser-1-12-4 body-parser@1.12.4
+42 silly lockFile 9f665704-body-parser body-parser@
+43 silly lockFile 9f665704-body-parser body-parser@
+44 silly resolved [ { name: 'body-parser',
+44 silly resolved     description: 'Node.js body parsing middleware',
+44 silly resolved     version: '1.12.4',
+44 silly resolved     contributors: [ [Object], [Object] ],
+44 silly resolved     license: 'MIT',
+44 silly resolved     repository: { type: 'git', url: 'https://github.com/expressjs/body-parser' },
+44 silly resolved     dependencies:
+44 silly resolved      { bytes: '1.0.0',
+44 silly resolved        'content-type': '~1.0.1',
+44 silly resolved        debug: '~2.2.0',
+44 silly resolved        depd: '~1.0.1',
+44 silly resolved        'iconv-lite': '0.4.8',
+44 silly resolved        'on-finished': '~2.2.1',
+44 silly resolved        qs: '2.4.2',
+44 silly resolved        'raw-body': '~2.0.1',
+44 silly resolved        'type-is': '~1.6.2' },
+44 silly resolved     devDependencies:
+44 silly resolved      { istanbul: '0.3.9',
+44 silly resolved        methods: '~1.1.1',
+44 silly resolved        mocha: '~2.2.4',
+44 silly resolved        supertest: '~0.15.0' },
+44 silly resolved     files: [ 'lib/', 'LICENSE', 'HISTORY.md', 'index.js' ],
+44 silly resolved     engines: { node: '>= 0.8' },
+44 silly resolved     scripts:
+44 silly resolved      { test: 'mocha --require test/support/env --reporter spec --check-leaks --bail test/',
+44 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/',
+44 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/' },
+44 silly resolved     readme: '# body-parser\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n[![Gratipay][gratipay-image]][gratipay-url]\n\nNode.js body parsing middleware.\n\n_This does not handle multipart bodies_, due to their complex and typically\nlarge nature. For multipart bodies, you may be interested in the following\nmodules:\n\n  * [busboy](https://www.npmjs.org/package/busboy#readme) and\n    [connect-busboy](https://www.npmjs.org/package/connect-busboy#readme)\n  * [multiparty](https://www.npmjs.org/package/multiparty#readme) and\n    [connect-multiparty](https://www.npmjs.org/package/connect-multiparty#readme)\n  * [formidable](https://www.npmjs.org/package/formidable#readme)\n  * [multer](https://www.npmjs.org/package/multer#readme)\n\nThis module provides the following parsers:\n\n  * [JSON body parser](#bodyparserjsonoptions)\n  * [Raw body parser](#bodyparserrawoptions)\n  * [Text body parser](#bodyparsertextoptions)\n  * [URL-encoded form body parser](#bodyparserurlencodedoptions)\n\nOther body parsers you might be interested in:\n\n- [body](https://www.npmjs.org/package/body#readme)\n- [co-body](https://www.npmjs.org/package/co-body#readme)\n\n## Installation\n\n```sh\n$ npm install body-parser\n```\n\n## API\n\n```js\nvar bodyParser = require(\'body-parser\')\n```\n\nThe `bodyParser` object exposes various factories to create middlewares. All\nmiddlewares will populate the `req.body` property with the parsed body or\nprovide an error to the callback. The various errors are described in the\n[errors section](#errors).\n\n### bodyParser.json(options)\n\nReturns middleware that only parses `json`. This parser accepts any Unicode\nencoding of the body and supports automatic inflation of `gzip` and `deflate`\nencodings.\n\nA new `body` object containing the parsed data is populated on the `request`\nobject after the middleware (i.e. `req.body`).\n\n#### Options\n\nThe `json` function takes an option `options` object that may contain any of\nthe following keys:\n\n##### inflate\n\nWhen set to `true`, then deflated (compressed) bodies will be inflated; when\n`false`, deflated bodies are rejected. Defaults to `true`.\n\n##### limit\n\nControls the maximum request body size. If this is a number, then the value\nspecifies the number of bytes; if it is a string, the value is passed to the\n[bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults\nto `\'100kb\'`.\n\n##### reviver\n\nThe `reviver` option is passed directly to `JSON.parse` as the second\nargument. You can find more information on this argument\n[in the MDN documentation about JSON.parse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Example.3A_Using_the_reviver_parameter).\n\n##### strict\n\nWhen set to `true`, will only accept arrays and objects; when `false` will\naccept anything `JSON.parse` accepts. Defaults to `true`.\n\n##### type\n\nThe `type` option is used to determine what media type the middleware will\nparse. This option can be a function or a string. If a string, `type` option\nis passed directly to the [type-is](https://www.npmjs.org/package/type-is#readme)\nlibrary and this can be an extension name (like `json`), a mime type (like\n`application/json`), or a mime time with a wildcard (like `*/*` or `*/json`).\nIf a function, the `type` option is called as `fn(req)` and the request is\nparsed if it returns a truthy value. Defaults to `json`.\n\n##### verify\n\nThe `verify` option, if supplied, is called as `verify(req, res, buf, encoding)`,\nwhere `buf` is a `Buffer` of the raw request body and `encoding` is the\nencoding of the request. The parsing can be aborted by throwing an error.\n\n### bodyParser.raw(options)\n\nReturns middleware that parses all bodies as a `Buffer`. This parser\nsupports automatic inflation of `gzip` and `deflate` encodings.\n\nA new `body` object containing the parsed data is populated on the `request`\nobject after the middleware (i.e. `req.body`). This will be a `Buffer` object\nof the body.\n\n#### Options\n\nThe `raw` function takes an option `options` object that may contain any of\nthe following keys:\n\n##### inflate\n\nWhen set to `true`, then deflated (compressed) bodies will be inflated; when\n`false`, deflated bodies are rejected. Defaults to `true`.\n\n##### limit\n\nControls the maximum request body size. If this is a number, then the value\nspecifies the number of bytes; if it is a string, the value is passed to the\n[bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults\nto `\'100kb\'`.\n\n##### type\n\nThe `type` option is used to determine what media type the middleware will\nparse. This option can be a function or a string. If a string, `type` option\nis passed directly to the [type-is](https://www.npmjs.org/package/type-is#readme)\nlibrary and this can be an extension name (like `bin`), a mime type (like\n`application/octet-stream`), or a mime time with a wildcard (like `*/*` or\n`application/*`). If a function, the `type` option is called as `fn(req)`\nand the request is parsed if it returns a truthy value. Defaults to\n`application/octet-stream`.\n\n##### verify\n\nThe `verify` option, if supplied, is called as `verify(req, res, buf, encoding)`,\nwhere `buf` is a `Buffer` of the raw request body and `encoding` is the\nencoding of the request. The parsing can be aborted by throwing an error.\n\n### bodyParser.text(options)\n\nReturns middleware that parses all bodies as a string. This parser supports\nautomatic inflation of `gzip` and `deflate` encodings.\n\nA new `body` string containing the parsed data is populated on the `request`\nobject after the middleware (i.e. `req.body`). This will be a string of the\nbody.\n\n#### Options\n\nThe `text` function takes an option `options` object that may contain any of\nthe following keys:\n\n##### defaultCharset\n\nSpecify the default character set for the text content if the charset is not\nspecified in the `Content-Type` header of the request. Defaults to `utf-8`.\n\n##### inflate\n\nWhen set to `true`, then deflated (compressed) bodies will be inflated; when\n`false`, deflated bodies are rejected. Defaults to `true`.\n\n##### limit\n\nControls the maximum request body size. If this is a number, then the value\nspecifies the number of bytes; if it is a string, the value is passed to the\n[bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults\nto `\'100kb\'`.\n\n##### type\n\nThe `type` option is used to determine what media type the middleware will\nparse. This option can be a function or a string. If a string, `type` option\nis passed directly to the [type-is](https://www.npmjs.org/package/type-is#readme)\nlibrary and this can be an extension name (like `txt`), a mime type (like\n`text/plain`), or a mime time with a wildcard (like `*/*` or `text/*`).\nIf a function, the `type` option is called as `fn(req)` and the request is\nparsed if it returns a truthy value. Defaults to `text/plain`.\n\n##### verify\n\nThe `verify` option, if supplied, is called as `verify(req, res, buf, encoding)`,\nwhere `buf` is a `Buffer` of the raw request body and `encoding` is the\nencoding of the request. The parsing can be aborted by throwing an error.\n\n### bodyParser.urlencoded(options)\n\nReturns middleware that only parses `urlencoded` bodies. This parser accepts\nonly UTF-8 encoding of the body and supports automatic inflation of `gzip`\nand `deflate` encodings.\n\nA new `body` object containing the parsed data is populated on the `request`\nobject after the middleware (i.e. `req.body`). This object will contain\nkey-value pairs, where the value can be a string or array (when `extended` is\n`false`), or any type (when `extended` is `true`).\n\n#### Options\n\nThe `urlencoded` function takes an option `options` object that may contain\nany of the following keys:\n\n##### extended\n\nThe `extended` option allows to choose between parsing the URL-encoded data\nwith the `querystring` library (when `false`) or the `qs` library (when\n`true`). The "extended" syntax allows for rich objects and arrays to be\nencoded into the URL-encoded format, allowing for a JSON-like experience\nwith URL-encoded. For more information, please\n[see the qs library](https://www.npmjs.org/package/qs#readme).\n\nDefaults to `true`, but using the default has been deprecated. Please\nresearch into the difference between `qs` and `querystring` and choose the\nappropriate setting.\n\n##### inflate\n\nWhen set to `true`, then deflated (compressed) bodies will be inflated; when\n`false`, deflated bodies are rejected. Defaults to `true`.\n\n##### limit\n\nControls the maximum request body size. If this is a number, then the value\nspecifies the number of bytes; if it is a string, the value is passed to the\n[bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults\nto `\'100kb\'`.\n\n##### parameterLimit\n\nThe `parameterLimit` option controls the maximum number of parameters that\nare allowed in the URL-encoded data. If a request contains more parameters\nthan this value, a 413 will be returned to the client. Defaults to `1000`.\n\n##### type\n\nThe `type` option is used to determine what media type the middleware will\nparse. This option can be a function or a string. If a string, `type` option\nis passed directly to the [type-is](https://www.npmjs.org/package/type-is#readme)\nlibrary and this can be an extension name (like `urlencoded`), a mime type (like\n`application/x-www-form-urlencoded`), or a mime time with a wildcard (like\n`*/x-www-form-urlencoded`). If a function, the `type` option is called as\n`fn(req)` and the request is parsed if it returns a truthy value. Defaults\nto `urlencoded`.\n\n##### verify\n\nThe `verify` option, if supplied, is called as `verify(req, res, buf, encoding)`,\nwhere `buf` is a `Buffer` of the raw request body and `encoding` is the\nencoding of the request. The parsing can be aborted by throwing an error.\n\n## Errors\n\nThe middlewares provided by this module create errors depending on the error\ncondition during parsing. The errors will typically have a `status` property\nthat contains the suggested HTTP response code.\n\nThe following are the common errors emitted, though any error can come through\nfor various reasons.\n\n### content encoding unsupported\n\nThis error will occur when the request had a `Content-Encoding` header that\ncontained an encoding but the "inflation" option was set to `false`. The\n`status` property is set to `415`.\n\n### request aborted\n\nThis error will occur when the request is aborted by the client before reading\nthe body has finished. The `received` property will be set to the number of\nbytes received before the request was aborted and the `expected` property is\nset to the number of expected bytes. The `status` property is set to `400`.\n\n### request entity too large\n\nThis error will occur when the request body\'s size is larger than the "limit"\noption. The `limit` property will be set to the byte limit and the `length`\nproperty will be set to the request body\'s length. The `status` property is\nset to `413`.\n\n### request size did not match content length\n\nThis error will occur when the request\'s length did not match the length from\nthe `Content-Lentgh` header. This typically occurs when the requst is malformed,\ntypically when the `Content-Length` header was calculated based on characters\ninstead of bytes. The `status` property is set to `400`.\n\n### stream encoding should not be set\n\nThis error will occur when something called the `req.setEncoding` method prior\nto this middleware. This module operates directly on bytes only and you cannot\ncall `req.setEncoding` when using this module. The `status` property is set to\n`500`.\n\n### unsupported charset "BOGUS"\n\nThis error will occur when the request had a charset parameter in the\n`Content-Type` header, but the `iconv-lite` module does not support it OR the\nparser does not support it. The charset is contained in the message as well\nas in the `charset` property. The `status` property is set to `415`.\n\n### unsupported content encoding "bogus"\n\nThis error will occur when the request had a `Content-Encoding` header that\ncontained an unsupported encoding. The encoding is contained in the message\nas well as in the `encoding` property. The `status` property is set to `415`.\n\n## Examples\n\n### express/connect top-level generic\n\nThis example demonstrates adding a generic JSON and URL-encoded parser as a\ntop-level middleware, which will parse the bodies of all incoming requests.\nThis is the simplest setup.\n\n```js\nvar express = require(\'express\')\nvar bodyParser = require(\'body-parser\')\n\nvar app = express()\n\n// parse application/x-www-form-urlencoded\napp.use(bodyParser.urlencoded({ extended: false }))\n\n// parse application/json\napp.use(bodyParser.json())\n\napp.use(function (req, res) {\n  res.setHeader(\'Content-Type\', \'text/plain\')\n  res.write(\'you posted:\\n\')\n  res.end(JSON.stringify(req.body, null, 2))\n})\n```\n\n### express route-specific\n\nThis example demonstrates adding body parsers specifically to the routes that\nneed them. In general, this is the most recommend way to use body-parser with\nexpress.\n\n```js\nvar express = require(\'express\')\nvar bodyParser = require(\'body-parser\')\n\nvar app = express()\n\n// create application/json parser\nvar jsonParser = bodyParser.json()\n\n// create application/x-www-form-urlencoded parser\nvar urlencodedParser = bodyParser.urlencoded({ extended: false })\n\n// POST /login gets urlencoded bodies\napp.post(\'/login\', urlencodedParser, function (req, res) {\n  if (!req.body) return res.sendStatus(400)\n  res.send(\'welcome, \' + req.body.username)\n})\n\n// POST /api/users gets JSON bodies\napp.post(\'/api/users\', jsonParser, function (req, res) {\n  if (!req.body) return res.sendStatus(400)\n  // create user in req.body\n})\n```\n\n### change content-type for parsers\n\nAll the parsers accept a `type` option which allows you to change the\n`Content-Type` that the middleware will parse.\n\n```js\n// parse various different custom JSON types as JSON\napp.use(bodyParser.json({ type: \'application/*+json\' }))\n\n// parse some custom thing into a Buffer\napp.use(bodyParser.raw({ type: \'application/vnd.custom-type\' }))\n\n// parse an HTML body into a string\napp.use(bodyParser.text({ type: \'text/html\' }))\n```\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/body-parser.svg\n[npm-url]: https://npmjs.org/package/body-parser\n[travis-image]: https://img.shields.io/travis/expressjs/body-parser/master.svg\n[travis-url]: https://travis-ci.org/expressjs/body-parser\n[coveralls-image]: https://img.shields.io/coveralls/expressjs/body-parser/master.svg\n[coveralls-url]: https://coveralls.io/r/expressjs/body-parser?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/body-parser.svg\n[downloads-url]: https://npmjs.org/package/body-parser\n[gratipay-image]: https://img.shields.io/gratipay/dougwilson.svg\n[gratipay-url]: https://www.gratipay.com/dougwilson/\n',
+44 silly resolved     readmeFilename: 'README.md',
+44 silly resolved     bugs: { url: 'https://github.com/expressjs/body-parser/issues' },
+44 silly resolved     homepage: 'https://github.com/expressjs/body-parser',
+44 silly resolved     _id: 'body-parser@1.12.4',
+44 silly resolved     _shasum: '090700c4ba28862a8520ef378395fdee5f61c229',
+44 silly resolved     _from: 'body-parser@',
+44 silly resolved     _resolved: 'https://registry.npmjs.org/body-parser/-/body-parser-1.12.4.tgz' } ]
+45 info install body-parser@1.12.4 into /home/karan/Desktop/Node_Api
+46 info installOne body-parser@1.12.4
+47 verbose node_modules/body-parser unbuild
+48 verbose tar unpack /home/karan/.npm/body-parser/1.12.4/package.tgz
+49 silly lockFile 03be4777-ode-Api-node-modules-body-parser tar:///home/karan/Desktop/Node_Api/node_modules/body-parser
+50 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser /home/karan/.npm/03be4777-ode-Api-node-modules-body-parser.lock
+51 silly lockFile dc2e6700-m-body-parser-1-12-4-package-tgz tar:///home/karan/.npm/body-parser/1.12.4/package.tgz
+52 verbose lock tar:///home/karan/.npm/body-parser/1.12.4/package.tgz /home/karan/.npm/dc2e6700-m-body-parser-1-12-4-package-tgz.lock
+53 silly gunzTarPerm modes [ '775', '664' ]
+54 silly gunzTarPerm extractEntry package.json
+55 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+56 silly gunzTarPerm extractEntry README.md
+57 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+58 silly gunzTarPerm extractEntry LICENSE
+59 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+60 silly gunzTarPerm extractEntry index.js
+61 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+62 silly gunzTarPerm extractEntry HISTORY.md
+63 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+64 silly gunzTarPerm extractEntry lib/read.js
+65 silly gunzTarPerm modified mode [ 'lib/read.js', 438, 436 ]
+66 silly gunzTarPerm extractEntry lib/types/json.js
+67 silly gunzTarPerm modified mode [ 'lib/types/json.js', 438, 436 ]
+68 silly gunzTarPerm extractEntry lib/types/raw.js
+69 silly gunzTarPerm modified mode [ 'lib/types/raw.js', 438, 436 ]
+70 silly gunzTarPerm extractEntry lib/types/text.js
+71 silly gunzTarPerm modified mode [ 'lib/types/text.js', 438, 436 ]
+72 silly gunzTarPerm extractEntry lib/types/urlencoded.js
+73 silly gunzTarPerm modified mode [ 'lib/types/urlencoded.js', 438, 436 ]
+74 silly lockFile 03be4777-ode-Api-node-modules-body-parser tar:///home/karan/Desktop/Node_Api/node_modules/body-parser
+75 silly lockFile 03be4777-ode-Api-node-modules-body-parser tar:///home/karan/Desktop/Node_Api/node_modules/body-parser
+76 silly lockFile dc2e6700-m-body-parser-1-12-4-package-tgz tar:///home/karan/.npm/body-parser/1.12.4/package.tgz
+77 silly lockFile dc2e6700-m-body-parser-1-12-4-package-tgz tar:///home/karan/.npm/body-parser/1.12.4/package.tgz
+78 info preinstall body-parser@1.12.4
+79 verbose readDependencies using package.json deps
+80 verbose readDependencies using package.json deps
+81 verbose cache add [ 'bytes@1.0.0', null ]
+82 verbose cache add name=undefined spec="bytes@1.0.0" args=["bytes@1.0.0",null]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: 'bytes@1.0.0',
+83 verbose parsed url   path: 'bytes@1.0.0',
+83 verbose parsed url   href: 'bytes@1.0.0' }
+84 verbose cache add [ 'content-type@~1.0.1', null ]
+85 verbose cache add name=undefined spec="content-type@~1.0.1" args=["content-type@~1.0.1",null]
+86 verbose parsed url { protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: 'content-type@~1.0.1',
+86 verbose parsed url   path: 'content-type@~1.0.1',
+86 verbose parsed url   href: 'content-type@~1.0.1' }
+87 verbose cache add [ 'debug@~2.2.0', null ]
+88 verbose cache add name=undefined spec="debug@~2.2.0" args=["debug@~2.2.0",null]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: 'debug@~2.2.0',
+89 verbose parsed url   path: 'debug@~2.2.0',
+89 verbose parsed url   href: 'debug@~2.2.0' }
+90 verbose cache add [ 'depd@~1.0.1', null ]
+91 verbose cache add name=undefined spec="depd@~1.0.1" args=["depd@~1.0.1",null]
+92 verbose parsed url { protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: 'depd@~1.0.1',
+92 verbose parsed url   path: 'depd@~1.0.1',
+92 verbose parsed url   href: 'depd@~1.0.1' }
+93 verbose cache add name="bytes" spec="1.0.0" args=["bytes","1.0.0"]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: '1.0.0',
+94 verbose parsed url   path: '1.0.0',
+94 verbose parsed url   href: '1.0.0' }
+95 verbose addNamed [ 'bytes', '1.0.0' ]
+96 verbose addNamed [ '1.0.0', '1.0.0' ]
+97 silly lockFile b4c055fe-bytes-1-0-0 bytes@1.0.0
+98 verbose lock bytes@1.0.0 /home/karan/.npm/b4c055fe-bytes-1-0-0.lock
+99 verbose cache add name="content-type" spec="~1.0.1" args=["content-type","~1.0.1"]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: '~1.0.1',
+100 verbose parsed url   path: '~1.0.1',
+100 verbose parsed url   href: '~1.0.1' }
+101 verbose addNamed [ 'content-type', '~1.0.1' ]
+102 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+103 silly lockFile cc42bda4-content-type-1-0-1 content-type@~1.0.1
+104 verbose lock content-type@~1.0.1 /home/karan/.npm/cc42bda4-content-type-1-0-1.lock
+105 verbose cache add name="debug" spec="~2.2.0" args=["debug","~2.2.0"]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: '~2.2.0',
+106 verbose parsed url   path: '~2.2.0',
+106 verbose parsed url   href: '~2.2.0' }
+107 verbose addNamed [ 'debug', '~2.2.0' ]
+108 verbose addNamed [ null, '>=2.2.0-0 <2.3.0-0' ]
+109 silly lockFile 7986b842-debug-2-2-0 debug@~2.2.0
+110 verbose lock debug@~2.2.0 /home/karan/.npm/7986b842-debug-2-2-0.lock
+111 verbose cache add [ 'iconv-lite@0.4.8', null ]
+112 verbose cache add name=undefined spec="iconv-lite@0.4.8" args=["iconv-lite@0.4.8",null]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: 'iconv-lite@0.4.8',
+113 verbose parsed url   path: 'iconv-lite@0.4.8',
+113 verbose parsed url   href: 'iconv-lite@0.4.8' }
+114 verbose cache add name="depd" spec="~1.0.1" args=["depd","~1.0.1"]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: '~1.0.1',
+115 verbose parsed url   path: '~1.0.1',
+115 verbose parsed url   href: '~1.0.1' }
+116 verbose addNamed [ 'depd', '~1.0.1' ]
+117 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+118 silly lockFile 96f022c4-depd-1-0-1 depd@~1.0.1
+119 verbose lock depd@~1.0.1 /home/karan/.npm/96f022c4-depd-1-0-1.lock
+120 verbose cache add [ 'on-finished@~2.2.1', null ]
+121 verbose cache add name=undefined spec="on-finished@~2.2.1" args=["on-finished@~2.2.1",null]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: 'on-finished@~2.2.1',
+122 verbose parsed url   path: 'on-finished@~2.2.1',
+122 verbose parsed url   href: 'on-finished@~2.2.1' }
+123 verbose cache add name="iconv-lite" spec="0.4.8" args=["iconv-lite","0.4.8"]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: '0.4.8',
+124 verbose parsed url   path: '0.4.8',
+124 verbose parsed url   href: '0.4.8' }
+125 verbose addNamed [ 'iconv-lite', '0.4.8' ]
+126 verbose addNamed [ '0.4.8', '0.4.8' ]
+127 silly lockFile 94790aba-iconv-lite-0-4-8 iconv-lite@0.4.8
+128 verbose lock iconv-lite@0.4.8 /home/karan/.npm/94790aba-iconv-lite-0-4-8.lock
+129 silly addNameRange { name: 'content-type',
+129 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+129 silly addNameRange   hasData: false }
+130 silly addNameRange { name: 'debug', range: '>=2.2.0-0 <2.3.0-0', hasData: false }
+131 verbose cache add [ 'qs@2.4.2', null ]
+132 verbose cache add name=undefined spec="qs@2.4.2" args=["qs@2.4.2",null]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: 'qs@2.4.2',
+133 verbose parsed url   path: 'qs@2.4.2',
+133 verbose parsed url   href: 'qs@2.4.2' }
+134 verbose cache add [ 'raw-body@~2.0.1', null ]
+135 verbose cache add name=undefined spec="raw-body@~2.0.1" args=["raw-body@~2.0.1",null]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: 'raw-body@~2.0.1',
+136 verbose parsed url   path: 'raw-body@~2.0.1',
+136 verbose parsed url   href: 'raw-body@~2.0.1' }
+137 verbose cache add [ 'type-is@~1.6.2', null ]
+138 verbose cache add name=undefined spec="type-is@~1.6.2" args=["type-is@~1.6.2",null]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'type-is@~1.6.2',
+139 verbose parsed url   path: 'type-is@~1.6.2',
+139 verbose parsed url   href: 'type-is@~1.6.2' }
+140 verbose cache add name="on-finished" spec="~2.2.1" args=["on-finished","~2.2.1"]
+141 verbose parsed url { protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: '~2.2.1',
+141 verbose parsed url   path: '~2.2.1',
+141 verbose parsed url   href: '~2.2.1' }
+142 verbose addNamed [ 'on-finished', '~2.2.1' ]
+143 verbose addNamed [ null, '>=2.2.1-0 <2.3.0-0' ]
+144 silly lockFile 791789df-on-finished-2-2-1 on-finished@~2.2.1
+145 verbose lock on-finished@~2.2.1 /home/karan/.npm/791789df-on-finished-2-2-1.lock
+146 silly addNameRange { name: 'depd', range: '>=1.0.1-0 <1.1.0-0', hasData: false }
+147 verbose cache add name="qs" spec="2.4.2" args=["qs","2.4.2"]
+148 verbose parsed url { protocol: null,
+148 verbose parsed url   slashes: null,
+148 verbose parsed url   auth: null,
+148 verbose parsed url   host: null,
+148 verbose parsed url   port: null,
+148 verbose parsed url   hostname: null,
+148 verbose parsed url   hash: null,
+148 verbose parsed url   search: null,
+148 verbose parsed url   query: null,
+148 verbose parsed url   pathname: '2.4.2',
+148 verbose parsed url   path: '2.4.2',
+148 verbose parsed url   href: '2.4.2' }
+149 verbose addNamed [ 'qs', '2.4.2' ]
+150 verbose addNamed [ '2.4.2', '2.4.2' ]
+151 silly lockFile a2a7c4ec-qs-2-4-2 qs@2.4.2
+152 verbose lock qs@2.4.2 /home/karan/.npm/a2a7c4ec-qs-2-4-2.lock
+153 verbose cache add name="raw-body" spec="~2.0.1" args=["raw-body","~2.0.1"]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: '~2.0.1',
+154 verbose parsed url   path: '~2.0.1',
+154 verbose parsed url   href: '~2.0.1' }
+155 verbose addNamed [ 'raw-body', '~2.0.1' ]
+156 verbose addNamed [ null, '>=2.0.1-0 <2.1.0-0' ]
+157 silly lockFile 0cb5c7f4-raw-body-2-0-1 raw-body@~2.0.1
+158 verbose lock raw-body@~2.0.1 /home/karan/.npm/0cb5c7f4-raw-body-2-0-1.lock
+159 verbose cache add name="type-is" spec="~1.6.2" args=["type-is","~1.6.2"]
+160 verbose parsed url { protocol: null,
+160 verbose parsed url   slashes: null,
+160 verbose parsed url   auth: null,
+160 verbose parsed url   host: null,
+160 verbose parsed url   port: null,
+160 verbose parsed url   hostname: null,
+160 verbose parsed url   hash: null,
+160 verbose parsed url   search: null,
+160 verbose parsed url   query: null,
+160 verbose parsed url   pathname: '~1.6.2',
+160 verbose parsed url   path: '~1.6.2',
+160 verbose parsed url   href: '~1.6.2' }
+161 verbose addNamed [ 'type-is', '~1.6.2' ]
+162 verbose addNamed [ null, '>=1.6.2-0 <1.7.0-0' ]
+163 silly lockFile 35daa97a-type-is-1-6-2 type-is@~1.6.2
+164 verbose lock type-is@~1.6.2 /home/karan/.npm/35daa97a-type-is-1-6-2.lock
+165 silly addNameRange { name: 'on-finished',
+165 silly addNameRange   range: '>=2.2.1-0 <2.3.0-0',
+165 silly addNameRange   hasData: false }
+166 silly addNameRange { name: 'raw-body', range: '>=2.0.1-0 <2.1.0-0', hasData: false }
+167 silly addNameRange { name: 'type-is', range: '>=1.6.2-0 <1.7.0-0', hasData: false }
+168 verbose request where is /content-type
+169 verbose request registry https://registry.npmjs.org/
+170 verbose url raw /content-type
+171 verbose url resolving [ 'https://registry.npmjs.org/', './content-type' ]
+172 verbose url resolved https://registry.npmjs.org/content-type
+173 verbose request where is https://registry.npmjs.org/content-type
+174 info trying registry request attempt 1 at 13:34:53
+175 verbose etag "8O24AGWIP2HNNPS49I8AYDZS8"
+176 http GET https://registry.npmjs.org/content-type
+177 verbose request where is /debug
+178 verbose request registry https://registry.npmjs.org/
+179 verbose url raw /debug
+180 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+181 verbose url resolved https://registry.npmjs.org/debug
+182 verbose request where is https://registry.npmjs.org/debug
+183 info trying registry request attempt 1 at 13:34:53
+184 verbose etag "8H4L45HGXGDN8GPKEY4WTFS2Y"
+185 http GET https://registry.npmjs.org/debug
+186 verbose request where is /depd
+187 verbose request registry https://registry.npmjs.org/
+188 verbose url raw /depd
+189 verbose url resolving [ 'https://registry.npmjs.org/', './depd' ]
+190 verbose url resolved https://registry.npmjs.org/depd
+191 verbose request where is https://registry.npmjs.org/depd
+192 info trying registry request attempt 1 at 13:34:53
+193 verbose etag "EXES9RDIT31NIDPYYVZ47XB58"
+194 http GET https://registry.npmjs.org/depd
+195 verbose request where is /on-finished
+196 verbose request registry https://registry.npmjs.org/
+197 verbose url raw /on-finished
+198 verbose url resolving [ 'https://registry.npmjs.org/', './on-finished' ]
+199 verbose url resolved https://registry.npmjs.org/on-finished
+200 verbose request where is https://registry.npmjs.org/on-finished
+201 info trying registry request attempt 1 at 13:34:53
+202 verbose etag "C44T40JT6D1IJCD9FNXBNZP4B"
+203 http GET https://registry.npmjs.org/on-finished
+204 verbose request where is /qs
+205 verbose request registry https://registry.npmjs.org/
+206 verbose url raw /qs
+207 verbose url resolving [ 'https://registry.npmjs.org/', './qs' ]
+208 verbose url resolved https://registry.npmjs.org/qs
+209 verbose request where is https://registry.npmjs.org/qs
+210 info trying registry request attempt 1 at 13:34:53
+211 verbose etag "32DQMMPM7UN40DZIXD548OIVJ"
+212 http GET https://registry.npmjs.org/qs
+213 verbose request where is /type-is
+214 verbose request registry https://registry.npmjs.org/
+215 verbose url raw /type-is
+216 verbose url resolving [ 'https://registry.npmjs.org/', './type-is' ]
+217 verbose url resolved https://registry.npmjs.org/type-is
+218 verbose request where is https://registry.npmjs.org/type-is
+219 info trying registry request attempt 1 at 13:34:53
+220 verbose etag "5RM645FND4R3MJKIG0OSDJMS4"
+221 http GET https://registry.npmjs.org/type-is
+222 verbose request where is /bytes
+223 verbose request registry https://registry.npmjs.org/
+224 verbose url raw /bytes
+225 verbose url resolving [ 'https://registry.npmjs.org/', './bytes' ]
+226 verbose url resolved https://registry.npmjs.org/bytes
+227 verbose request where is https://registry.npmjs.org/bytes
+228 info trying registry request attempt 1 at 13:34:53
+229 verbose etag "E96BNQ48UBQJRVP6GS44HMVRQ"
+230 http GET https://registry.npmjs.org/bytes
+231 verbose request where is /raw-body
+232 verbose request registry https://registry.npmjs.org/
+233 verbose url raw /raw-body
+234 verbose url resolving [ 'https://registry.npmjs.org/', './raw-body' ]
+235 verbose url resolved https://registry.npmjs.org/raw-body
+236 verbose request where is https://registry.npmjs.org/raw-body
+237 info trying registry request attempt 1 at 13:34:53
+238 verbose etag "8GL1YKPKBJ9P4664N46832EQY"
+239 http GET https://registry.npmjs.org/raw-body
+240 verbose request where is /iconv-lite
+241 verbose request registry https://registry.npmjs.org/
+242 verbose url raw /iconv-lite
+243 verbose url resolving [ 'https://registry.npmjs.org/', './iconv-lite' ]
+244 verbose url resolved https://registry.npmjs.org/iconv-lite
+245 verbose request where is https://registry.npmjs.org/iconv-lite
+246 info trying registry request attempt 1 at 13:34:53
+247 verbose etag "6DRVHDEKU1YF4XXR87LKODM69"
+248 http GET https://registry.npmjs.org/iconv-lite
+249 http 304 https://registry.npmjs.org/on-finished
+250 silly registry.get cb [ 304,
+250 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:53 GMT',
+250 silly registry.get     via: '1.1 varnish',
+250 silly registry.get     'cache-control': 'max-age=60',
+250 silly registry.get     etag: '"C44T40JT6D1IJCD9FNXBNZP4B"',
+250 silly registry.get     age: '47',
+250 silly registry.get     connection: 'keep-alive',
+250 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
+250 silly registry.get     'x-cache': 'HIT',
+250 silly registry.get     'x-cache-hits': '2',
+250 silly registry.get     'x-timer': 'S1434096293.593512,VS0,VE0',
+250 silly registry.get     vary: 'Accept' } ]
+251 verbose etag https://registry.npmjs.org/on-finished from cache
+252 silly addNameRange number 2 { name: 'on-finished',
+252 silly addNameRange   range: '>=2.2.1-0 <2.3.0-0',
+252 silly addNameRange   hasData: true }
+253 silly addNameRange versions [ 'on-finished',
+253 silly addNameRange   [ '2.0.0', '2.1.0', '2.1.1', '2.2.0', '2.2.1', '2.3.0' ] ]
+254 verbose addNamed [ 'on-finished', '2.2.1' ]
+255 verbose addNamed [ '2.2.1', '2.2.1' ]
+256 silly lockFile ebaca14a-on-finished-2-2-1 on-finished@2.2.1
+257 verbose lock on-finished@2.2.1 /home/karan/.npm/ebaca14a-on-finished-2-2-1.lock
+258 silly lockFile ebaca14a-on-finished-2-2-1 on-finished@2.2.1
+259 silly lockFile ebaca14a-on-finished-2-2-1 on-finished@2.2.1
+260 silly lockFile 791789df-on-finished-2-2-1 on-finished@~2.2.1
+261 silly lockFile 791789df-on-finished-2-2-1 on-finished@~2.2.1
+262 http 304 https://registry.npmjs.org/qs
+263 silly registry.get cb [ 304,
+263 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:53 GMT',
+263 silly registry.get     via: '1.1 varnish',
+263 silly registry.get     'cache-control': 'max-age=60',
+263 silly registry.get     etag: '"32DQMMPM7UN40DZIXD548OIVJ"',
+263 silly registry.get     age: '49',
+263 silly registry.get     connection: 'keep-alive',
+263 silly registry.get     'x-served-by': 'cache-sin6921-SIN',
+263 silly registry.get     'x-cache': 'HIT',
+263 silly registry.get     'x-cache-hits': '8',
+263 silly registry.get     'x-timer': 'S1434096293.623355,VS0,VE0',
+263 silly registry.get     vary: 'Accept' } ]
+264 verbose etag https://registry.npmjs.org/qs from cache
+265 silly lockFile a2a7c4ec-qs-2-4-2 qs@2.4.2
+266 silly lockFile a2a7c4ec-qs-2-4-2 qs@2.4.2
+267 http 304 https://registry.npmjs.org/type-is
+268 silly registry.get cb [ 304,
+268 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:53 GMT',
+268 silly registry.get     via: '1.1 varnish',
+268 silly registry.get     'cache-control': 'max-age=60',
+268 silly registry.get     etag: '"5RM645FND4R3MJKIG0OSDJMS4"',
+268 silly registry.get     age: '47',
+268 silly registry.get     connection: 'keep-alive',
+268 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
+268 silly registry.get     'x-cache': 'HIT',
+268 silly registry.get     'x-cache-hits': '3',
+268 silly registry.get     'x-timer': 'S1434096293.716020,VS0,VE0',
+268 silly registry.get     vary: 'Accept' } ]
+269 verbose etag https://registry.npmjs.org/type-is from cache
+270 silly addNameRange number 2 { name: 'type-is', range: '>=1.6.2-0 <1.7.0-0', hasData: true }
+271 silly addNameRange versions [ 'type-is',
+271 silly addNameRange   [ '1.0.0',
+271 silly addNameRange     '1.0.1',
+271 silly addNameRange     '1.1.0',
+271 silly addNameRange     '1.2.0',
+271 silly addNameRange     '1.2.1',
+271 silly addNameRange     '1.2.2',
+271 silly addNameRange     '1.3.0',
+271 silly addNameRange     '1.3.1',
+271 silly addNameRange     '1.3.2',
+271 silly addNameRange     '1.4.0',
+271 silly addNameRange     '1.5.0',
+271 silly addNameRange     '1.5.1',
+271 silly addNameRange     '1.5.2',
+271 silly addNameRange     '1.5.3',
+271 silly addNameRange     '1.5.4',
+271 silly addNameRange     '1.5.5',
+271 silly addNameRange     '1.5.6',
+271 silly addNameRange     '1.5.7',
+271 silly addNameRange     '1.6.0',
+271 silly addNameRange     '1.6.1',
+271 silly addNameRange     '1.6.2',
+271 silly addNameRange     '1.6.3' ] ]
+272 verbose addNamed [ 'type-is', '1.6.3' ]
+273 verbose addNamed [ '1.6.3', '1.6.3' ]
+274 silly lockFile 1fd130d8-type-is-1-6-3 type-is@1.6.3
+275 verbose lock type-is@1.6.3 /home/karan/.npm/1fd130d8-type-is-1-6-3.lock
+276 silly lockFile 1fd130d8-type-is-1-6-3 type-is@1.6.3
+277 silly lockFile 1fd130d8-type-is-1-6-3 type-is@1.6.3
+278 silly lockFile 35daa97a-type-is-1-6-2 type-is@~1.6.2
+279 silly lockFile 35daa97a-type-is-1-6-2 type-is@~1.6.2
+280 http 304 https://registry.npmjs.org/content-type
+281 silly registry.get cb [ 304,
+281 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:53 GMT',
+281 silly registry.get     via: '1.1 varnish',
+281 silly registry.get     'cache-control': 'max-age=60',
+281 silly registry.get     etag: '"8O24AGWIP2HNNPS49I8AYDZS8"',
+281 silly registry.get     age: '2',
+281 silly registry.get     connection: 'keep-alive',
+281 silly registry.get     'x-served-by': 'cache-sin6921-SIN',
+281 silly registry.get     'x-cache': 'HIT',
+281 silly registry.get     'x-cache-hits': '1',
+281 silly registry.get     'x-timer': 'S1434096293.733011,VS0,VE0',
+281 silly registry.get     vary: 'Accept' } ]
+282 verbose etag https://registry.npmjs.org/content-type from cache
+283 http 304 https://registry.npmjs.org/debug
+284 silly registry.get cb [ 304,
+284 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:53 GMT',
+284 silly registry.get     via: '1.1 varnish',
+284 silly registry.get     'cache-control': 'max-age=60',
+284 silly registry.get     etag: '"8H4L45HGXGDN8GPKEY4WTFS2Y"',
+284 silly registry.get     age: '2',
+284 silly registry.get     connection: 'keep-alive',
+284 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+284 silly registry.get     'x-cache': 'HIT',
+284 silly registry.get     'x-cache-hits': '1',
+284 silly registry.get     'x-timer': 'S1434096293.734860,VS0,VE0',
+284 silly registry.get     vary: 'Accept' } ]
+285 verbose etag https://registry.npmjs.org/debug from cache
+286 silly addNameRange number 2 { name: 'content-type',
+286 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+286 silly addNameRange   hasData: true }
+287 silly addNameRange versions [ 'content-type', [ '0.0.1', '1.0.0', '1.0.1' ] ]
+288 verbose addNamed [ 'content-type', '1.0.1' ]
+289 verbose addNamed [ '1.0.1', '1.0.1' ]
+290 silly lockFile c521c57e-content-type-1-0-1 content-type@1.0.1
+291 verbose lock content-type@1.0.1 /home/karan/.npm/c521c57e-content-type-1-0-1.lock
+292 silly addNameRange number 2 { name: 'debug', range: '>=2.2.0-0 <2.3.0-0', hasData: true }
+293 silly addNameRange versions [ 'debug',
+293 silly addNameRange   [ '0.0.1',
+293 silly addNameRange     '0.1.0',
+293 silly addNameRange     '0.2.0',
+293 silly addNameRange     '0.3.0',
+293 silly addNameRange     '0.4.0',
+293 silly addNameRange     '0.4.1',
+293 silly addNameRange     '0.5.0',
+293 silly addNameRange     '0.6.0',
+293 silly addNameRange     '0.7.0',
+293 silly addNameRange     '0.7.1',
+293 silly addNameRange     '0.7.2',
+293 silly addNameRange     '0.7.3',
+293 silly addNameRange     '0.7.4',
+293 silly addNameRange     '0.8.0',
+293 silly addNameRange     '0.8.1',
+293 silly addNameRange     '1.0.0',
+293 silly addNameRange     '1.0.1',
+293 silly addNameRange     '1.0.2',
+293 silly addNameRange     '1.0.3',
+293 silly addNameRange     '1.0.4',
+293 silly addNameRange     '2.0.0',
+293 silly addNameRange     '2.1.0',
+293 silly addNameRange     '2.1.1',
+293 silly addNameRange     '2.1.2',
+293 silly addNameRange     '2.1.3',
+293 silly addNameRange     '2.2.0' ] ]
+294 verbose addNamed [ 'debug', '2.2.0' ]
+295 verbose addNamed [ '2.2.0', '2.2.0' ]
+296 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+297 verbose lock debug@2.2.0 /home/karan/.npm/82f99b48-debug-2-2-0.lock
+298 silly lockFile c521c57e-content-type-1-0-1 content-type@1.0.1
+299 silly lockFile c521c57e-content-type-1-0-1 content-type@1.0.1
+300 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+301 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+302 silly lockFile cc42bda4-content-type-1-0-1 content-type@~1.0.1
+303 silly lockFile cc42bda4-content-type-1-0-1 content-type@~1.0.1
+304 silly lockFile 7986b842-debug-2-2-0 debug@~2.2.0
+305 silly lockFile 7986b842-debug-2-2-0 debug@~2.2.0
+306 http 304 https://registry.npmjs.org/raw-body
+307 silly registry.get cb [ 304,
+307 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:53 GMT',
+307 silly registry.get     via: '1.1 varnish',
+307 silly registry.get     'cache-control': 'max-age=60',
+307 silly registry.get     etag: '"8GL1YKPKBJ9P4664N46832EQY"',
+307 silly registry.get     age: '47',
+307 silly registry.get     connection: 'keep-alive',
+307 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
+307 silly registry.get     'x-cache': 'HIT',
+307 silly registry.get     'x-cache-hits': '23',
+307 silly registry.get     'x-timer': 'S1434096293.837486,VS0,VE0',
+307 silly registry.get     vary: 'Accept' } ]
+308 verbose etag https://registry.npmjs.org/raw-body from cache
+309 silly addNameRange number 2 { name: 'raw-body', range: '>=2.0.1-0 <2.1.0-0', hasData: true }
+310 silly addNameRange versions [ 'raw-body',
+310 silly addNameRange   [ '0.0.1',
+310 silly addNameRange     '0.0.2',
+310 silly addNameRange     '0.0.3',
+310 silly addNameRange     '0.1.0',
+310 silly addNameRange     '0.1.1',
+310 silly addNameRange     '0.2.0',
+310 silly addNameRange     '1.0.0',
+310 silly addNameRange     '1.0.1',
+310 silly addNameRange     '1.1.0',
+310 silly addNameRange     '1.1.1',
+310 silly addNameRange     '1.1.2',
+310 silly addNameRange     '1.1.3',
+310 silly addNameRange     '1.1.4',
+310 silly addNameRange     '1.1.5',
+310 silly addNameRange     '1.1.6',
+310 silly addNameRange     '1.1.7',
+310 silly addNameRange     '1.2.0',
+310 silly addNameRange     '1.2.1',
+310 silly addNameRange     '1.2.2',
+310 silly addNameRange     '1.2.3',
+310 silly addNameRange     '1.3.0',
+310 silly addNameRange     '1.3.1',
+310 silly addNameRange     '1.3.2',
+310 silly addNameRange     '1.3.3',
+310 silly addNameRange     '1.3.4',
+310 silly addNameRange     '2.0.0',
+310 silly addNameRange     '2.0.1',
+310 silly addNameRange     '2.0.2',
+310 silly addNameRange     '2.1.0' ] ]
+311 verbose addNamed [ 'raw-body', '2.0.2' ]
+312 verbose addNamed [ '2.0.2', '2.0.2' ]
+313 silly lockFile 8cfc9800-raw-body-2-0-2 raw-body@2.0.2
+314 verbose lock raw-body@2.0.2 /home/karan/.npm/8cfc9800-raw-body-2-0-2.lock
+315 http 304 https://registry.npmjs.org/iconv-lite
+316 silly registry.get cb [ 304,
+316 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:53 GMT',
+316 silly registry.get     via: '1.1 varnish',
+316 silly registry.get     'cache-control': 'max-age=60',
+316 silly registry.get     etag: '"6DRVHDEKU1YF4XXR87LKODM69"',
+316 silly registry.get     age: '18',
+316 silly registry.get     connection: 'keep-alive',
+316 silly registry.get     'x-served-by': 'cache-sin6921-SIN',
+316 silly registry.get     'x-cache': 'HIT',
+316 silly registry.get     'x-cache-hits': '2',
+316 silly registry.get     'x-timer': 'S1434096293.857750,VS0,VE0',
+316 silly registry.get     vary: 'Accept' } ]
+317 verbose etag https://registry.npmjs.org/iconv-lite from cache
+318 silly lockFile 8cfc9800-raw-body-2-0-2 raw-body@2.0.2
+319 silly lockFile 8cfc9800-raw-body-2-0-2 raw-body@2.0.2
+320 silly lockFile 0cb5c7f4-raw-body-2-0-1 raw-body@~2.0.1
+321 silly lockFile 0cb5c7f4-raw-body-2-0-1 raw-body@~2.0.1
+322 silly lockFile 94790aba-iconv-lite-0-4-8 iconv-lite@0.4.8
+323 silly lockFile 94790aba-iconv-lite-0-4-8 iconv-lite@0.4.8
+324 http 304 https://registry.npmjs.org/depd
+325 silly registry.get cb [ 304,
+325 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:54 GMT',
+325 silly registry.get     via: '1.1 varnish',
+325 silly registry.get     'cache-control': 'max-age=60',
+325 silly registry.get     etag: '"EXES9RDIT31NIDPYYVZ47XB58"',
+325 silly registry.get     age: '9',
+325 silly registry.get     connection: 'keep-alive',
+325 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+325 silly registry.get     'x-cache': 'HIT',
+325 silly registry.get     'x-cache-hits': '3',
+325 silly registry.get     'x-timer': 'S1434096294.037504,VS0,VE0',
+325 silly registry.get     vary: 'Accept' } ]
+326 verbose etag https://registry.npmjs.org/depd from cache
+327 silly addNameRange number 2 { name: 'depd', range: '>=1.0.1-0 <1.1.0-0', hasData: true }
+328 silly addNameRange versions [ 'depd',
+328 silly addNameRange   [ '0.0.0',
+328 silly addNameRange     '0.0.1',
+328 silly addNameRange     '0.1.0',
+328 silly addNameRange     '0.2.0',
+328 silly addNameRange     '0.3.0',
+328 silly addNameRange     '0.4.0',
+328 silly addNameRange     '0.4.1',
+328 silly addNameRange     '0.4.2',
+328 silly addNameRange     '0.4.3',
+328 silly addNameRange     '0.4.4',
+328 silly addNameRange     '0.4.5',
+328 silly addNameRange     '1.0.0',
+328 silly addNameRange     '1.0.1' ] ]
+329 verbose addNamed [ 'depd', '1.0.1' ]
+330 verbose addNamed [ '1.0.1', '1.0.1' ]
+331 silly lockFile c7d31122-depd-1-0-1 depd@1.0.1
+332 verbose lock depd@1.0.1 /home/karan/.npm/c7d31122-depd-1-0-1.lock
+333 silly lockFile c7d31122-depd-1-0-1 depd@1.0.1
+334 silly lockFile c7d31122-depd-1-0-1 depd@1.0.1
+335 silly lockFile 96f022c4-depd-1-0-1 depd@~1.0.1
+336 silly lockFile 96f022c4-depd-1-0-1 depd@~1.0.1
+337 http 304 https://registry.npmjs.org/bytes
+338 silly registry.get cb [ 304,
+338 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:53 GMT',
+338 silly registry.get     via: '1.1 varnish',
+338 silly registry.get     'cache-control': 'max-age=60',
+338 silly registry.get     etag: '"E96BNQ48UBQJRVP6GS44HMVRQ"',
+338 silly registry.get     age: '47',
+338 silly registry.get     connection: 'keep-alive',
+338 silly registry.get     'x-served-by': 'cache-sin6921-SIN',
+338 silly registry.get     'x-cache': 'HIT',
+338 silly registry.get     'x-cache-hits': '2',
+338 silly registry.get     'x-timer': 'S1434096293.746693,VS0,VE0',
+338 silly registry.get     vary: 'Accept' } ]
+339 verbose etag https://registry.npmjs.org/bytes from cache
+340 silly lockFile b4c055fe-bytes-1-0-0 bytes@1.0.0
+341 silly lockFile b4c055fe-bytes-1-0-0 bytes@1.0.0
+342 silly resolved [ { name: 'on-finished',
+342 silly resolved     description: 'Execute a callback when a request closes, finishes, or errors',
+342 silly resolved     version: '2.2.1',
+342 silly resolved     contributors: [ [Object], [Object] ],
+342 silly resolved     license: 'MIT',
+342 silly resolved     repository:
+342 silly resolved      { type: 'git',
+342 silly resolved        url: 'git+https://github.com/jshttp/on-finished.git' },
+342 silly resolved     dependencies: { 'ee-first': '1.1.0' },
+342 silly resolved     devDependencies: { istanbul: '0.3.9', mocha: '~2.2.4' },
+342 silly resolved     engines: { node: '>= 0.8' },
+342 silly resolved     files: [ 'HISTORY.md', 'LICENSE', 'index.js' ],
+342 silly resolved     scripts:
+342 silly resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+342 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+342 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+342 silly resolved     readme: '# on-finished\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Node.js Version][node-version-image]][node-version-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nExecute a callback when a request closes, finishes, or errors.\n\n## Install\n\n```sh\n$ npm install on-finished\n```\n\n## API\n\n```js\nvar onFinished = require(\'on-finished\')\n```\n\n### onFinished(res, listener)\n\nAttach a listener to listen for the response to finish. The listener will\nbe invoked only once when the response finished. If the response finished\nto to an error, the first argument will contain the error. If the response\nhas already finished, the listener will be invoked.\n\nListening to the end of a response would be used to close things associated\nwith the response, like open files.\n\nListener is invoked as `listener(err, res)`.\n\n```js\nonFinished(res, function (err, res) {\n  // clean up open fds, etc.\n  // err contains the error is request error\'d\n})\n```\n\n### onFinished(req, listener)\n\nAttach a listener to listen for the request to finish. The listener will\nbe invoked only once when the request finished. If the request finished\nto to an error, the first argument will contain the error. If the request\nhas already finished, the listener will be invoked.\n\nListening to the end of a request would be used to know when to continue\nafter reading the data.\n\nListener is invoked as `listener(err, req)`.\n\n```js\nvar data = \'\'\n\nreq.setEncoding(\'utf8\')\nres.on(\'data\', function (str) {\n  data += str\n})\n\nonFinished(req, function (err, req) {\n  // data is read unless there is err\n})\n```\n\n### onFinished.isFinished(res)\n\nDetermine if `res` is already finished. This would be useful to check and\nnot even start certain operations if the response has already finished.\n\n### onFinished.isFinished(req)\n\nDetermine if `req` is already finished. This would be useful to check and\nnot even start certain operations if the request has already finished.\n\n### Example\n\nThe following code ensures that file descriptors are always closed\nonce the response finishes.\n\n```js\nvar destroy = require(\'destroy\')\nvar http = require(\'http\')\nvar onFinished = require(\'on-finished\')\n\nhttp.createServer(function onRequest(req, res) {\n  var stream = fs.createReadStream(\'package.json\')\n  stream.pipe(res)\n  onFinished(res, function (err) {\n    destroy(stream)\n  })\n})\n```\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/on-finished.svg\n[npm-url]: https://npmjs.org/package/on-finished\n[node-version-image]: https://img.shields.io/node/v/on-finished.svg\n[node-version-url]: http://nodejs.org/download/\n[travis-image]: https://img.shields.io/travis/jshttp/on-finished/master.svg\n[travis-url]: https://travis-ci.org/jshttp/on-finished\n[coveralls-image]: https://img.shields.io/coveralls/jshttp/on-finished/master.svg\n[coveralls-url]: https://coveralls.io/r/jshttp/on-finished?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/on-finished.svg\n[downloads-url]: https://npmjs.org/package/on-finished\n',
+342 silly resolved     readmeFilename: 'README.md',
+342 silly resolved     bugs: { url: 'https://github.com/jshttp/on-finished/issues' },
+342 silly resolved     homepage: 'https://github.com/jshttp/on-finished',
+342 silly resolved     _id: 'on-finished@2.2.1',
+342 silly resolved     _shasum: '5c85c1cc36299f78029653f667f27b6b99ebc029',
+342 silly resolved     _from: 'on-finished@~2.2.1',
+342 silly resolved     _resolved: 'https://registry.npmjs.org/on-finished/-/on-finished-2.2.1.tgz' },
+342 silly resolved   { name: 'qs',
+342 silly resolved     version: '2.4.2',
+342 silly resolved     description: 'A querystring parser that supports nesting and arrays, with a depth limit',
+342 silly resolved     homepage: 'https://github.com/hapijs/qs',
+342 silly resolved     main: 'index.js',
+342 silly resolved     dependencies: {},
+342 silly resolved     devDependencies: { code: '1.x.x', lab: '5.x.x' },
+342 silly resolved     scripts: { test: 'make test-cov' },
+342 silly resolved     repository: { type: 'git', url: 'git+https://github.com/hapijs/qs.git' },
+342 silly resolved     keywords: [ 'querystring', 'qs' ],
+342 silly resolved     licenses: [ [Object] ],
+342 silly resolved     gitHead: 'cdd64a9d1385dbc3dde48da6de98b5993f1607bd',
+342 silly resolved     bugs: { url: 'https://github.com/hapijs/qs/issues' },
+342 silly resolved     _id: 'qs@2.4.2',
+342 silly resolved     _shasum: 'f7ce788e5777df0b5010da7f7c4e73ba32470f5a',
+342 silly resolved     _from: 'qs@2.4.2',
+342 silly resolved     _npmVersion: '2.9.0',
+342 silly resolved     _nodeVersion: '0.10.38',
+342 silly resolved     _npmUser: { name: 'nlf', email: 'quitlahok@gmail.com' },
+342 silly resolved     dist:
+342 silly resolved      { shasum: 'f7ce788e5777df0b5010da7f7c4e73ba32470f5a',
+342 silly resolved        tarball: 'http://registry.npmjs.org/qs/-/qs-2.4.2.tgz' },
+342 silly resolved     maintainers: [ [Object], [Object] ],
+342 silly resolved     directories: {},
+342 silly resolved     _resolved: 'https://registry.npmjs.org/qs/-/qs-2.4.2.tgz',
+342 silly resolved     readme: 'ERROR: No README data found!' },
+342 silly resolved   { name: 'type-is',
+342 silly resolved     description: 'Infer the content-type of a request.',
+342 silly resolved     version: '1.6.3',
+342 silly resolved     contributors: [ [Object], [Object] ],
+342 silly resolved     license: 'MIT',
+342 silly resolved     repository: { type: 'git', url: 'https://github.com/jshttp/type-is' },
+342 silly resolved     dependencies: { 'media-typer': '0.3.0', 'mime-types': '~2.1.1' },
+342 silly resolved     devDependencies: { istanbul: '0.3.14', mocha: '~1.21.5' },
+342 silly resolved     engines: { node: '>= 0.6' },
+342 silly resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+342 silly resolved     scripts:
+342 silly resolved      { test: 'mocha --reporter spec --check-leaks --bail test/',
+342 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+342 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+342 silly resolved     keywords: [ 'content', 'type', 'checking' ],
+342 silly resolved     gitHead: '294dff1c93d2ccb9a56191d37e390a8d2ad02e6f',
+342 silly resolved     bugs: { url: 'https://github.com/jshttp/type-is/issues' },
+342 silly resolved     homepage: 'https://github.com/jshttp/type-is',
+342 silly resolved     _id: 'type-is@1.6.3',
+342 silly resolved     _shasum: 'd87d201777f76dfc526ac202679715d41a28c580',
+342 silly resolved     _from: 'type-is@~1.6.2',
+342 silly resolved     _npmVersion: '1.4.28',
+342 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+342 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+342 silly resolved     dist:
+342 silly resolved      { shasum: 'd87d201777f76dfc526ac202679715d41a28c580',
+342 silly resolved        tarball: 'http://registry.npmjs.org/type-is/-/type-is-1.6.3.tgz' },
+342 silly resolved     directories: {},
+342 silly resolved     _resolved: 'https://registry.npmjs.org/type-is/-/type-is-1.6.3.tgz',
+342 silly resolved     readme: 'ERROR: No README data found!' },
+342 silly resolved   { name: 'debug',
+342 silly resolved     version: '2.2.0',
+342 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+342 silly resolved     description: 'small debugging utility',
+342 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+342 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+342 silly resolved     contributors: [ [Object] ],
+342 silly resolved     license: 'MIT',
+342 silly resolved     dependencies: { ms: '0.7.1' },
+342 silly resolved     devDependencies: { browserify: '9.0.3', mocha: '*' },
+342 silly resolved     main: './node.js',
+342 silly resolved     browser: './browser.js',
+342 silly resolved     component: { scripts: [Object] },
+342 silly resolved     readme: '# debug\n\n  tiny node.js debugging utility modelled after node core\'s debugging technique.\n\n## Installation\n\n```bash\n$ npm install debug\n```\n\n## Usage\n\n With `debug` you simply invoke the exported function to generate your debug function, passing it a name which will determine if a noop function is returned, or a decorated `console.error`, so all of the `console` format string goodies you\'re used to work fine. A unique color is selected per-function for visibility.\n\nExample _app.js_:\n\n```js\nvar debug = require(\'debug\')(\'http\')\n  , http = require(\'http\')\n  , name = \'My App\';\n\n// fake app\n\ndebug(\'booting %s\', name);\n\nhttp.createServer(function(req, res){\n  debug(req.method + \' \' + req.url);\n  res.end(\'hello\\n\');\n}).listen(3000, function(){\n  debug(\'listening\');\n});\n\n// fake worker of some kind\n\nrequire(\'./worker\');\n```\n\nExample _worker.js_:\n\n```js\nvar debug = require(\'debug\')(\'worker\');\n\nsetInterval(function(){\n  debug(\'doing some work\');\n}, 1000);\n```\n\n The __DEBUG__ environment variable is then used to enable these based on space or comma-delimited names. Here are some examples:\n\n  ![debug http and worker](http://f.cl.ly/items/18471z1H402O24072r1J/Screenshot.png)\n\n  ![debug worker](http://f.cl.ly/items/1X413v1a3M0d3C2c1E0i/Screenshot.png)\n\n#### Windows note\n\n On Windows the environment variable is set using the `set` command.\n\n ```cmd\n set DEBUG=*,-not_this\n ```\n\nThen, run the program to be debugged as usual.\n\n## Millisecond diff\n\n  When actively developing an application it can be useful to see when the time spent between one `debug()` call and the next. Suppose for example you invoke `debug()` before requesting a resource, and after as well, the "+NNNms" will show you how much time was spent between calls.\n\n  ![](http://f.cl.ly/items/2i3h1d3t121M2Z1A3Q0N/Screenshot.png)\n\n  When stdout is not a TTY, `Date#toUTCString()` is used, making it more useful for logging the debug information as shown below:\n\n  ![](http://f.cl.ly/items/112H3i0e0o0P0a2Q2r11/Screenshot.png)\n\n## Conventions\n\n If you\'re using this in one or more of your libraries, you _should_ use the name of your library so that developers may toggle debugging as desired without guessing names. If you have more than one debuggers you _should_ prefix them with your library name and use ":" to separate features. For example "bodyParser" from Connect would then be "connect:bodyParser".\n\n## Wildcards\n\n  The `*` character may be used as a wildcard. Suppose for example your library has debuggers named "connect:bodyParser", "connect:compress", "connect:session", instead of listing all three with `DEBUG=connect:bodyParser,connect:compress,connect:session`, you may simply do `DEBUG=connect:*`, or to run everything using this module simply use `DEBUG=*`.\n\n  You can also exclude specific debuggers by prefixing them with a "-" character.  For example, `DEBUG=*,-connect:*` would include all debuggers except those starting with "connect:".\n\n## Browser support\n\n  Debug works in the browser as well, currently persisted by `localStorage`. Consider the situation shown below where you have `worker:a` and `worker:b`, and wish to debug both. Somewhere in the code on your page, include:\n\n```js\nwindow.myDebug = require("debug");\n```\n\n  ("debug" is a global object in the browser so we give this object a different name.) When your page is open in the browser, type the following in the console:\n\n```js\nmyDebug.enable("worker:*")\n```\n\n  Refresh the page. Debug output will continue to be sent to the console until it is disabled by typing `myDebug.disable()` in the console.\n\n```js\na = debug(\'worker:a\');\nb = debug(\'worker:b\');\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1000);\n\nsetInterval(function(){\n  b(\'doing some work\');\n}, 1200);\n```\n\n#### Web Inspector Colors\n\n  Colors are also enabled on "Web Inspectors" that understand the `%c` formatting\n  option. These are WebKit web inspectors, Firefox ([since version\n  31](https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/))\n  and the Firebug plugin for Firefox (any version).\n\n  Colored output looks something like:\n\n  ![](https://cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)\n\n### stderr vs stdout\n\nYou can set an alternative logging method per-namespace by overriding the `log` method on a per-namespace or globally:\n\nExample _stdout.js_:\n\n```js\nvar debug = require(\'debug\');\nvar error = debug(\'app:error\');\n\n// by default stderr is used\nerror(\'goes to stderr!\');\n\nvar log = debug(\'app:log\');\n// set this namespace to log via console.log\nlog.log = console.log.bind(console); // don\'t forget to bind to console!\nlog(\'goes to stdout\');\nerror(\'still goes to stderr!\');\n\n// set all output to go via console.info\n// overrides all per-namespace log settings\ndebug.log = console.info.bind(console);\nerror(\'now goes to stdout via console.info\');\nlog(\'still goes to stdout, but via console.info now\');\n```\n\n### Save debug output to a file\n\nYou can save all debug statements to a file by piping them.\n\nExample:\n\n```bash\n$ DEBUG_FD=3 node your-app.js 3> whatever.log\n```\n\n## Authors\n\n - TJ Holowaychuk\n - Nathan Rajlich\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2014 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+342 silly resolved     readmeFilename: 'Readme.md',
+342 silly resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+342 silly resolved     homepage: 'https://github.com/visionmedia/debug',
+342 silly resolved     _id: 'debug@2.2.0',
+342 silly resolved     _shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+342 silly resolved     _from: 'debug@~2.2.0',
+342 silly resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz',
+342 silly resolved     scripts: {} },
+342 silly resolved   { name: 'content-type',
+342 silly resolved     description: 'Create and parse HTTP Content-Type header',
+342 silly resolved     version: '1.0.1',
+342 silly resolved     author:
+342 silly resolved      { name: 'Douglas Christopher Wilson',
+342 silly resolved        email: 'doug@somethingdoug.com' },
+342 silly resolved     license: 'MIT',
+342 silly resolved     keywords: [ 'content-type', 'http', 'req', 'res', 'rfc7231' ],
+342 silly resolved     repository:
+342 silly resolved      { type: 'git',
+342 silly resolved        url: 'git+https://github.com/jshttp/content-type.git' },
+342 silly resolved     devDependencies: { istanbul: '0.3.5', mocha: '~1.21.5' },
+342 silly resolved     files: [ 'LICENSE', 'HISTORY.md', 'README.md', 'index.js' ],
+342 silly resolved     engines: { node: '>= 0.6' },
+342 silly resolved     scripts:
+342 silly resolved      { test: 'mocha --reporter spec --check-leaks --bail test/',
+342 silly resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+342 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/' },
+342 silly resolved     readme: '# content-type\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Node.js Version][node-version-image]][node-version-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nCreate and parse HTTP Content-Type header according to RFC 7231\n\n## Installation\n\n```sh\n$ npm install content-type\n```\n\n## API\n\n```js\nvar contentType = require(\'content-type\')\n```\n\n### contentType.parse(string)\n\n```js\nvar obj = contentType.parse(\'image/svg+xml; charset=utf-8\')\n```\n\nParse a content type string. This will return an object with the following\nproperties (examples are shown for the string `\'image/svg+xml; charset=utf-8\'`):\n\n - `type`: The media type (the type and subtype, always lower case).\n   Example: `\'image/svg+xml\'`\n\n - `parameters`: An object of the parameters in the media type (name of parameter\n   always lower case). Example: `{charset: \'utf-8\'}`\n\nThrows a `TypeError` if the string is missing or invalid.\n\n### contentType.parse(req)\n\n```js\nvar obj = contentType.parse(req)\n```\n\nParse the `content-type` header from the given `req`. Short-cut for\n`contentType.parse(req.headers[\'content-type\'])`.\n\nThrows a `TypeError` if the `Content-Type` header is missing or invalid.\n\n### contentType.parse(res)\n\n```js\nvar obj = contentType.parse(res)\n```\n\nParse the `content-type` header set on the given `res`. Short-cut for\n`contentType.parse(res.getHeader(\'content-type\'))`.\n\nThrows a `TypeError` if the `Content-Type` header is missing or invalid.\n\n### contentType.format(obj)\n\n```js\nvar str = contentType.format({type: \'image/svg+xml\'})\n```\n\nFormat an object into a content type string. This will return a string of the\ncontent type for the given object with the following properties (examples are\nshown that produce the string `\'image/svg+xml; charset=utf-8\'`):\n\n - `type`: The media type (will be lower-cased). Example: `\'image/svg+xml\'`\n\n - `parameters`: An object of the parameters in the media type (name of the\n   parameter will be lower-cased). Example: `{charset: \'utf-8\'}`\n\nThrows a `TypeError` if the object contains an invalid type or parameter names.\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/content-type.svg\n[npm-url]: https://npmjs.org/package/content-type\n[node-version-image]: https://img.shields.io/node/v/content-type.svg\n[node-version-url]: http://nodejs.org/download/\n[travis-image]: https://img.shields.io/travis/jshttp/content-type/master.svg\n[travis-url]: https://travis-ci.org/jshttp/content-type\n[coveralls-image]: https://img.shields.io/coveralls/jshttp/content-type/master.svg\n[coveralls-url]: https://coveralls.io/r/jshttp/content-type\n[downloads-image]: https://img.shields.io/npm/dm/content-type.svg\n[downloads-url]: https://npmjs.org/package/content-type\n',
+342 silly resolved     readmeFilename: 'README.md',
+342 silly resolved     bugs: { url: 'https://github.com/jshttp/content-type/issues' },
+342 silly resolved     homepage: 'https://github.com/jshttp/content-type',
+342 silly resolved     _id: 'content-type@1.0.1',
+342 silly resolved     _shasum: 'a19d2247327dc038050ce622b7a154ec59c5e600',
+342 silly resolved     _from: 'content-type@~1.0.1',
+342 silly resolved     _resolved: 'https://registry.npmjs.org/content-type/-/content-type-1.0.1.tgz' },
+342 silly resolved   { name: 'raw-body',
+342 silly resolved     description: 'Get and validate the raw body of a readable stream.',
+342 silly resolved     version: '2.0.2',
+342 silly resolved     author:
+342 silly resolved      { name: 'Jonathan Ong',
+342 silly resolved        email: 'me@jongleberry.com',
+342 silly resolved        url: 'http://jongleberry.com' },
+342 silly resolved     contributors: [ [Object], [Object] ],
+342 silly resolved     license: 'MIT',
+342 silly resolved     repository: { type: 'git', url: 'https://github.com/stream-utils/raw-body' },
+342 silly resolved     dependencies: { bytes: '2.1.0', 'iconv-lite': '0.4.8' },
+342 silly resolved     devDependencies:
+342 silly resolved      { bluebird: '2.9.25',
+342 silly resolved        istanbul: '0.3.9',
+342 silly resolved        mocha: '2.2.5',
+342 silly resolved        'readable-stream': '~1.0.33',
+342 silly resolved        through2: '0.6.5' },
+342 silly resolved     engines: { node: '>= 0.8' },
+342 silly resolved     files: [ 'HISTORY.md', 'LICENSE', 'README.md', 'index.js' ],
+342 silly resolved     scripts:
+342 silly resolved      { test: 'mocha --trace-deprecation --reporter spec --bail --check-leaks test/',
+342 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --trace-deprecation --reporter dot --check-leaks test/',
+342 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --trace-deprecation --reporter spec --check-leaks test/' },
+342 silly resolved     gitHead: '529a371f138c6f236256fe7c7e3bfac7ee836a59',
+342 silly resolved     bugs: { url: 'https://github.com/stream-utils/raw-body/issues' },
+342 silly resolved     homepage: 'https://github.com/stream-utils/raw-body',
+342 silly resolved     _id: 'raw-body@2.0.2',
+342 silly resolved     _shasum: 'a2c2f98c8531cee99c63d8d238b7de97bb659fca',
+342 silly resolved     _from: 'raw-body@~2.0.1',
+342 silly resolved     _npmVersion: '1.4.28',
+342 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+342 silly resolved     maintainers: [ [Object], [Object] ],
+342 silly resolved     dist:
+342 silly resolved      { shasum: 'a2c2f98c8531cee99c63d8d238b7de97bb659fca',
+342 silly resolved        tarball: 'http://registry.npmjs.org/raw-body/-/raw-body-2.0.2.tgz' },
+342 silly resolved     directories: {},
+342 silly resolved     _resolved: 'https://registry.npmjs.org/raw-body/-/raw-body-2.0.2.tgz',
+342 silly resolved     readme: 'ERROR: No README data found!' },
+342 silly resolved   { name: 'iconv-lite',
+342 silly resolved     description: 'Convert character encodings in pure javascript.',
+342 silly resolved     version: '0.4.8',
+342 silly resolved     license: 'MIT',
+342 silly resolved     keywords: [ 'iconv', 'convert', 'charset', 'icu' ],
+342 silly resolved     author: { name: 'Alexander Shtuchkin', email: 'ashtuchkin@gmail.com' },
+342 silly resolved     contributors:
+342 silly resolved      [ [Object],
+342 silly resolved        [Object],
+342 silly resolved        [Object],
+342 silly resolved        [Object],
+342 silly resolved        [Object],
+342 silly resolved        [Object],
+342 silly resolved        [Object],
+342 silly resolved        [Object],
+342 silly resolved        [Object],
+342 silly resolved        [Object],
+342 silly resolved        [Object],
+342 silly resolved        [Object] ],
+342 silly resolved     main: './lib/index.js',
+342 silly resolved     homepage: 'https://github.com/ashtuchkin/iconv-lite',
+342 silly resolved     bugs: { url: 'https://github.com/ashtuchkin/iconv-lite/issues' },
+342 silly resolved     repository:
+342 silly resolved      { type: 'git',
+342 silly resolved        url: 'git://github.com/ashtuchkin/iconv-lite.git' },
+342 silly resolved     engines: { node: '>=0.8.0' },
+342 silly resolved     scripts:
+342 silly resolved      { coverage: 'istanbul cover _mocha -- --grep .',
+342 silly resolved        'coverage-open': 'open coverage/lcov-report/index.html',
+342 silly resolved        test: 'mocha --reporter spec --grep .' },
+342 silly resolved     browser: { './extend-node': false, './streams': false },
+342 silly resolved     devDependencies:
+342 silly resolved      { mocha: '*',
+342 silly resolved        request: '2.47',
+342 silly resolved        unorm: '*',
+342 silly resolved        errto: '*',
+342 silly resolved        async: '*',
+342 silly resolved        istanbul: '*',
+342 silly resolved        iconv: '2.1.4' },
+342 silly resolved     readme: '## Pure JS character encoding conversion\n\n<!-- [![Build Status](https://secure.travis-ci.org/ashtuchkin/iconv-lite.png?branch=master)](http://travis-ci.org/ashtuchkin/iconv-lite) -->\n\n * Doesn\'t need native code compilation. Works on Windows and in sandboxed environments like [Cloud9](http://c9.io).\n * Used in popular projects like [Express.js (body_parser)](https://github.com/expressjs/body-parser), \n   [Grunt](http://gruntjs.com/), [Nodemailer](http://www.nodemailer.com/), [Yeoman](http://yeoman.io/) and others.\n * Faster than [node-iconv](https://github.com/bnoordhuis/node-iconv) (see below for performance comparison).\n * Intuitive encode/decode API\n * Streaming support for Node v0.10+\n * Can extend Node.js primitives (buffers, streams) to support all iconv-lite encodings.\n * In-browser usage via [Browserify](https://github.com/substack/node-browserify) (~180k gzip compressed with Buffer shim included).\n * License: MIT.\n\n[![NPM Stats](https://nodei.co/npm/iconv-lite.png?downloads=true&downloadRank=true)](https://npmjs.org/packages/iconv-lite/)\n\n## Usage\n### Basic API\n```javascript\nvar iconv = require(\'iconv-lite\');\n\n// Convert from an encoded buffer to js string.\nstr = iconv.decode(new Buffer([0x68, 0x65, 0x6c, 0x6c, 0x6f]), \'win1251\');\n\n// Convert from js string to an encoded buffer.\nbuf = iconv.encode("Sample input string", \'win1251\');\n\n// Check if encoding is supported\niconv.encodingExists("us-ascii")\n```\n\n### Streaming API (Node v0.10+)\n```javascript\n\n// Decode stream (from binary stream to js strings)\nhttp.createServer(function(req, res) {\n    var converterStream = iconv.decodeStream(\'win1251\');\n    req.pipe(converterStream);\n\n    converterStream.on(\'data\', function(str) {\n        console.log(str); // Do something with decoded strings, chunk-by-chunk.\n    });\n});\n\n// Convert encoding streaming example\nfs.createReadStream(\'file-in-win1251.txt\')\n    .pipe(iconv.decodeStream(\'win1251\'))\n    .pipe(iconv.encodeStream(\'ucs2\'))\n    .pipe(fs.createWriteStream(\'file-in-ucs2.txt\'));\n\n// Sugar: all encode/decode streams have .collect(cb) method to accumulate data.\nhttp.createServer(function(req, res) {\n    req.pipe(iconv.decodeStream(\'win1251\')).collect(function(err, body) {\n        assert(typeof body == \'string\');\n        console.log(body); // full request body string\n    });\n});\n```\n\n### Extend Node.js own encodings\n```javascript\n// After this call all Node basic primitives will understand iconv-lite encodings.\niconv.extendNodeEncodings();\n\n// Examples:\nbuf = new Buffer(str, \'win1251\');\nbuf.write(str, \'gbk\');\nstr = buf.toString(\'latin1\');\nassert(Buffer.isEncoding(\'iso-8859-15\'));\nBuffer.byteLength(str, \'us-ascii\');\n\nhttp.createServer(function(req, res) {\n    req.setEncoding(\'big5\');\n    req.collect(function(err, body) {\n        console.log(body);\n    });\n});\n\nfs.createReadStream("file.txt", "shift_jis");\n\n// External modules are also supported (if they use Node primitives, which they probably do).\nrequest = require(\'request\');\nrequest({\n    url: "http://github.com/", \n    encoding: "cp932"\n});\n\n// To remove extensions\niconv.undoExtendNodeEncodings();\n```\n\n## Supported encodings\n\n *  All node.js native encodings: utf8, ucs2 / utf16-le, ascii, binary, base64, hex.\n *  Additional unicode encodings: utf16, utf16-be, utf-7, utf-7-imap.\n *  All widespread singlebyte encodings: Windows 125x family, ISO-8859 family, \n    IBM/DOS codepages, Macintosh family, KOI8 family, all others supported by iconv library. \n    Aliases like \'latin1\', \'us-ascii\' also supported.\n *  All widespread multibyte encodings: CP932, CP936, CP949, CP950, GB2313, GBK, GB18030, Big5, Shift_JIS, EUC-JP.\n\nSee [all supported encodings on wiki](https://github.com/ashtuchkin/iconv-lite/wiki/Supported-Encodings).\n\nMost singlebyte encodings are generated automatically from [node-iconv](https://github.com/bnoordhuis/node-iconv). Thank you Ben Noordhuis and libiconv authors!\n\nMultibyte encodings are generated from [Unicode.org mappings](http://www.unicode.org/Public/MAPPINGS/) and [WHATWG Encoding Standard mappings](http://encoding.spec.whatwg.org/). Thank you, respective authors!\n\n\n## Encoding/decoding speed\n\nComparison with node-iconv module (1000x256kb, on MacBook Pro, Core i5/2.6 GHz, Node v0.12.0). \nNote: your results may vary, so please always check on your hardware.\n\n    operation             iconv@2.1.4   iconv-lite@0.4.7\n    ----------------------------------------------------------\n    encode(\'win1251\')     ~96 Mb/s      ~320 Mb/s\n    decode(\'win1251\')     ~95 Mb/s      ~246 Mb/s\n\n\n## Notes\n\nWhen decoding, be sure to supply a Buffer to decode() method, otherwise [bad things usually happen](https://github.com/ashtuchkin/iconv-lite/wiki/Use-Buffers-when-decoding).  \nUntranslatable characters are set to � or ?. No transliteration is currently supported.  \nUses BOM to determine endianness, but doesn\'t remove it. Use [\'strip-bom\' module](https://github.com/sindresorhus/strip-bom).  \nNode versions 0.10.31 and 0.11.13 are buggy, don\'t use them (see #65, #77).  \n\n## Testing\n\n```bash\n$ git clone git@github.com:ashtuchkin/iconv-lite.git\n$ cd iconv-lite\n$ npm install\n$ npm test\n    \n$ # To view performance:\n$ node test/performance.js\n\n$ # To view test coverage:\n$ npm run coverage\n$ open coverage/lcov-report/index.html\n```\n\n## Adoption\n[![NPM](https://nodei.co/npm-dl/iconv-lite.png)](https://nodei.co/npm/iconv-lite/)\n[![Codeship Status for ashtuchkin/iconv-lite](https://www.codeship.io/projects/81670840-fa72-0131-4520-4a01a6c01acc/status)](https://www.codeship.io/projects/29053)\n',
+342 silly resolved     readmeFilename: 'README.md',
+342 silly resolved     _id: 'iconv-lite@0.4.8',
+342 silly resolved     _shasum: 'c6019a7595f2cefca702eab694a010bcd9298d20',
+342 silly resolved     _from: 'iconv-lite@0.4.8',
+342 silly resolved     _resolved: 'https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.8.tgz' },
+342 silly resolved   { name: 'depd',
+342 silly resolved     description: 'Deprecate all the things',
+342 silly resolved     version: '1.0.1',
+342 silly resolved     author:
+342 silly resolved      { name: 'Douglas Christopher Wilson',
+342 silly resolved        email: 'doug@somethingdoug.com' },
+342 silly resolved     license: 'MIT',
+342 silly resolved     keywords: [ 'deprecate', 'deprecated' ],
+342 silly resolved     repository:
+342 silly resolved      { type: 'git',
+342 silly resolved        url: 'git+https://github.com/dougwilson/nodejs-depd.git' },
+342 silly resolved     devDependencies:
+342 silly resolved      { benchmark: '1.0.0',
+342 silly resolved        'beautify-benchmark': '0.2.4',
+342 silly resolved        istanbul: '0.3.5',
+342 silly resolved        mocha: '~1.21.5' },
+342 silly resolved     files: [ 'lib/', 'History.md', 'LICENSE', 'index.js', 'Readme.md' ],
+342 silly resolved     engines: { node: '>= 0.6' },
+342 silly resolved     scripts:
+342 silly resolved      { bench: 'node benchmark/index.js',
+342 silly resolved        test: 'mocha --reporter spec --bail test/',
+342 silly resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --no-exit test/',
+342 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/' },
+342 silly resolved     readme: '# depd\n\n[![NPM Version][npm-version-image]][npm-url]\n[![NPM Downloads][npm-downloads-image]][npm-url]\n[![Node.js Version][node-image]][node-url]\n[![Linux Build][travis-image]][travis-url]\n[![Windows Build][appveyor-image]][appveyor-url]\n[![Coverage Status][coveralls-image]][coveralls-url]\n[![Gratipay][gratipay-image]][gratipay-url]\n\nDeprecate all the things\n\n> With great modules comes great responsibility; mark things deprecated!\n\n## Install\n\n```sh\n$ npm install depd\n```\n\n## API\n\n```js\nvar deprecate = require(\'depd\')(\'my-module\')\n```\n\nThis library allows you to display deprecation messages to your users.\nThis library goes above and beyond with deprecation warnings by\nintrospection of the call stack (but only the bits that it is interested\nin).\n\nInstead of just warning on the first invocation of a deprecated\nfunction and never again, this module will warn on the first invocation\nof a deprecated function per unique call site, making it ideal to alert\nusers of all deprecated uses across the code base, rather than just\nwhatever happens to execute first.\n\nThe deprecation warnings from this module also include the file and line\ninformation for the call into the module that the deprecated function was\nin.\n\n**NOTE** this library has a similar interface to the `debug` module, and\nthis module uses the calling file to get the boundary for the call stacks,\nso you should always create a new `deprecate` object in each file and not\nwithin some central file.\n\n### depd(namespace)\n\nCreate a new deprecate function that uses the given namespace name in the\nmessages and will display the call site prior to the stack entering the\nfile this function was called from. It is highly suggested you use the\nname of your module as the namespace.\n\n### deprecate(message)\n\nCall this function from deprecated code to display a deprecation message.\nThis message will appear once per unique caller site. Caller site is the\nfirst call site in the stack in a different file from the caller of this\nfunction.\n\nIf the message is omitted, a message is generated for you based on the site\nof the `deprecate()` call and will display the name of the function called,\nsimilar to the name displayed in a stack trace.\n\n### deprecate.function(fn, message)\n\nCall this function to wrap a given function in a deprecation message on any\ncall to the function. An optional message can be supplied to provide a custom\nmessage.\n\n### deprecate.property(obj, prop, message)\n\nCall this function to wrap a given property on object in a deprecation message\non any accessing or setting of the property. An optional message can be supplied\nto provide a custom message.\n\nThe method must be called on the object where the property belongs (not\ninherited from the prototype).\n\nIf the property is a data descriptor, it will be converted to an accessor\ndescriptor in order to display the deprecation message.\n\n### process.on(\'deprecation\', fn)\n\nThis module will allow easy capturing of deprecation errors by emitting the\nerrors as the type "deprecation" on the global `process`. If there are no\nlisteners for this type, the errors are written to STDERR as normal, but if\nthere are any listeners, nothing will be written to STDERR and instead only\nemitted. From there, you can write the errors in a different format or to a\nlogging source.\n\nThe error represents the deprecation and is emitted only once with the same\nrules as writing to STDERR. The error has the following properties:\n\n  - `message` - This is the message given by the library\n  - `name` - This is always `\'DeprecationError\'`\n  - `namespace` - This is the namespace the deprecation came from\n  - `stack` - This is the stack of the call to the deprecated thing\n\nExample `error.stack` output:\n\n```\nDeprecationError: my-cool-module deprecated oldfunction\n    at Object.<anonymous> ([eval]-wrapper:6:22)\n    at Module._compile (module.js:456:26)\n    at evalScript (node.js:532:25)\n    at startup (node.js:80:7)\n    at node.js:902:3\n```\n\n### process.env.NO_DEPRECATION\n\nAs a user of modules that are deprecated, the environment variable `NO_DEPRECATION`\nis provided as a quick solution to silencing deprecation warnings from being\noutput. The format of this is similar to that of `DEBUG`:\n\n```sh\n$ NO_DEPRECATION=my-module,othermod node app.js\n```\n\nThis will suppress deprecations from being output for "my-module" and "othermod".\nThe value is a list of comma-separated namespaces. To suppress every warning\nacross all namespaces, use the value `*` for a namespace.\n\nProviding the argument `--no-deprecation` to the `node` executable will suppress\nall deprecations (only available in Node.js 0.8 or higher).\n\n**NOTE** This will not suppress the deperecations given to any "deprecation"\nevent listeners, just the output to STDERR.\n\n### process.env.TRACE_DEPRECATION\n\nAs a user of modules that are deprecated, the environment variable `TRACE_DEPRECATION`\nis provided as a solution to getting more detailed location information in deprecation\nwarnings by including the entire stack trace. The format of this is the same as\n`NO_DEPRECATION`:\n\n```sh\n$ TRACE_DEPRECATION=my-module,othermod node app.js\n```\n\nThis will include stack traces for deprecations being output for "my-module" and\n"othermod". The value is a list of comma-separated namespaces. To trace every\nwarning across all namespaces, use the value `*` for a namespace.\n\nProviding the argument `--trace-deprecation` to the `node` executable will trace\nall deprecations (only available in Node.js 0.8 or higher).\n\n**NOTE** This will not trace the deperecations silenced by `NO_DEPRECATION`.\n\n## Display\n\n![message](files/message.png)\n\nWhen a user calls a function in your library that you mark deprecated, they\nwill see the following written to STDERR (in the given colors, similar colors\nand layout to the `debug` module):\n\n```\nbright cyan    bright yellow\n|              |          reset       cyan\n|              |          |           |\n▼              ▼          ▼           ▼\nmy-cool-module deprecated oldfunction [eval]-wrapper:6:22\n▲              ▲          ▲           ▲\n|              |          |           |\nnamespace      |          |           location of mycoolmod.oldfunction() call\n               |          deprecation message\n               the word "deprecated"\n```\n\nIf the user redirects their STDERR to a file or somewhere that does not support\ncolors, they see (similar layout to the `debug` module):\n\n```\nSun, 15 Jun 2014 05:21:37 GMT my-cool-module deprecated oldfunction at [eval]-wrapper:6:22\n▲                             ▲              ▲          ▲              ▲\n|                             |              |          |              |\ntimestamp of message          namespace      |          |             location of mycoolmod.oldfunction() call\n                                             |          deprecation message\n                                             the word "deprecated"\n```\n\n## Examples\n\n### Deprecating all calls to a function\n\nThis will display a deprecated message about "oldfunction" being deprecated\nfrom "my-module" on STDERR.\n\n```js\nvar deprecate = require(\'depd\')(\'my-cool-module\')\n\n// message automatically derived from function name\n// Object.oldfunction\nexports.oldfunction = deprecate.function(function oldfunction() {\n  // all calls to function are deprecated\n})\n\n// specific message\nexports.oldfunction = deprecate.function(function () {\n  // all calls to function are deprecated\n}, \'oldfunction\')\n```\n\n### Conditionally deprecating a function call\n\nThis will display a deprecated message about "weirdfunction" being deprecated\nfrom "my-module" on STDERR when called with less than 2 arguments.\n\n```js\nvar deprecate = require(\'depd\')(\'my-cool-module\')\n\nexports.weirdfunction = function () {\n  if (arguments.length < 2) {\n    // calls with 0 or 1 args are deprecated\n    deprecate(\'weirdfunction args < 2\')\n  }\n}\n```\n\nWhen calling `deprecate` as a function, the warning is counted per call site\nwithin your own module, so you can display different deprecations depending\non different situations and the users will still get all the warnings:\n\n```js\nvar deprecate = require(\'depd\')(\'my-cool-module\')\n\nexports.weirdfunction = function () {\n  if (arguments.length < 2) {\n    // calls with 0 or 1 args are deprecated\n    deprecate(\'weirdfunction args < 2\')\n  } else if (typeof arguments[0] !== \'string\') {\n    // calls with non-string first argument are deprecated\n    deprecate(\'weirdfunction non-string first arg\')\n  }\n}\n```\n\n### Deprecating property access\n\nThis will display a deprecated message about "oldprop" being deprecated\nfrom "my-module" on STDERR when accessed. A deprecation will be displayed\nwhen setting the value and when getting the value.\n\n```js\nvar deprecate = require(\'depd\')(\'my-cool-module\')\n\nexports.oldprop = \'something\'\n\n// message automatically derives from property name\ndeprecate.property(exports, \'oldprop\')\n\n// explicit message\ndeprecate.property(exports, \'oldprop\', \'oldprop >= 0.10\')\n```\n\n## License\n\n[MIT](LICENSE)\n\n[npm-version-image]: https://img.shields.io/npm/v/depd.svg\n[npm-downloads-image]: https://img.shields.io/npm/dm/depd.svg\n[npm-url]: https://npmjs.org/package/depd\n[travis-image]: https://img.shields.io/travis/dougwilson/nodejs-depd/master.svg?label=linux\n[travis-url]: https://travis-ci.org/dougwilson/nodejs-depd\n[appveyor-image]: https://img.shields.io/appveyor/ci/dougwilson/nodejs-depd/master.svg?label=windows\n[appveyor-url]: https://ci.appveyor.com/project/dougwilson/nodejs-depd\n[coveralls-image]: https://img.shields.io/coveralls/dougwilson/nodejs-depd/master.svg\n[coveralls-url]: https://coveralls.io/r/dougwilson/nodejs-depd?branch=master\n[node-image]: https://img.shields.io/node/v/depd.svg\n[node-url]: http://nodejs.org/download/\n[gratipay-image]: https://img.shields.io/gratipay/dougwilson.svg\n[gratipay-url]: https://www.gratipay.com/dougwilson/\n',
+342 silly resolved     readmeFilename: 'Readme.md',
+342 silly resolved     bugs: { url: 'https://github.com/dougwilson/nodejs-depd/issues' },
+342 silly resolved     homepage: 'https://github.com/dougwilson/nodejs-depd',
+342 silly resolved     _id: 'depd@1.0.1',
+342 silly resolved     _shasum: '80aec64c9d6d97e65cc2a9caa93c0aa6abf73aaa',
+342 silly resolved     _from: 'depd@~1.0.1',
+342 silly resolved     _resolved: 'https://registry.npmjs.org/depd/-/depd-1.0.1.tgz' },
+342 silly resolved   { name: 'bytes',
+342 silly resolved     author:
+342 silly resolved      { name: 'TJ Holowaychuk',
+342 silly resolved        email: 'tj@vision-media.ca',
+342 silly resolved        url: 'http://tjholowaychuk.com' },
+342 silly resolved     description: 'byte size string parser / serializer',
+342 silly resolved     repository:
+342 silly resolved      { type: 'git',
+342 silly resolved        url: 'https://github.com/visionmedia/bytes.js.git' },
+342 silly resolved     version: '1.0.0',
+342 silly resolved     main: 'index.js',
+342 silly resolved     dependencies: {},
+342 silly resolved     devDependencies: { mocha: '*', should: '*' },
+342 silly resolved     component: { scripts: [Object] },
+342 silly resolved     bugs: { url: 'https://github.com/visionmedia/bytes.js/issues' },
+342 silly resolved     homepage: 'https://github.com/visionmedia/bytes.js',
+342 silly resolved     _id: 'bytes@1.0.0',
+342 silly resolved     dist:
+342 silly resolved      { shasum: '3569ede8ba34315fab99c3e92cb04c7220de1fa8',
+342 silly resolved        tarball: 'http://registry.npmjs.org/bytes/-/bytes-1.0.0.tgz' },
+342 silly resolved     _from: 'bytes@1.0.0',
+342 silly resolved     _npmVersion: '1.4.3',
+342 silly resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+342 silly resolved     maintainers: [ [Object] ],
+342 silly resolved     directories: {},
+342 silly resolved     _shasum: '3569ede8ba34315fab99c3e92cb04c7220de1fa8',
+342 silly resolved     _resolved: 'https://registry.npmjs.org/bytes/-/bytes-1.0.0.tgz',
+342 silly resolved     readme: 'ERROR: No README data found!',
+342 silly resolved     scripts: {} } ]
+343 info install on-finished@2.2.1 into /home/karan/Desktop/Node_Api/node_modules/body-parser
+344 info install qs@2.4.2 into /home/karan/Desktop/Node_Api/node_modules/body-parser
+345 info install type-is@1.6.3 into /home/karan/Desktop/Node_Api/node_modules/body-parser
+346 info install debug@2.2.0 into /home/karan/Desktop/Node_Api/node_modules/body-parser
+347 info install content-type@1.0.1 into /home/karan/Desktop/Node_Api/node_modules/body-parser
+348 info install raw-body@2.0.2 into /home/karan/Desktop/Node_Api/node_modules/body-parser
+349 info install iconv-lite@0.4.8 into /home/karan/Desktop/Node_Api/node_modules/body-parser
+350 info install depd@1.0.1 into /home/karan/Desktop/Node_Api/node_modules/body-parser
+351 info install bytes@1.0.0 into /home/karan/Desktop/Node_Api/node_modules/body-parser
+352 info installOne on-finished@2.2.1
+353 info installOne qs@2.4.2
+354 info installOne type-is@1.6.3
+355 info installOne debug@2.2.0
+356 info installOne content-type@1.0.1
+357 info installOne raw-body@2.0.2
+358 info installOne iconv-lite@0.4.8
+359 info installOne depd@1.0.1
+360 info installOne bytes@1.0.0
+361 verbose node_modules/body-parser/node_modules/on-finished unbuild
+362 verbose node_modules/body-parser/node_modules/qs unbuild
+363 verbose node_modules/body-parser/node_modules/type-is unbuild
+364 verbose node_modules/body-parser/node_modules/debug unbuild
+365 verbose node_modules/body-parser/node_modules/content-type unbuild
+366 verbose node_modules/body-parser/node_modules/raw-body unbuild
+367 verbose node_modules/body-parser/node_modules/iconv-lite unbuild
+368 verbose node_modules/body-parser/node_modules/depd unbuild
+369 verbose node_modules/body-parser/node_modules/bytes unbuild
+370 verbose tar unpack /home/karan/.npm/on-finished/2.2.1/package.tgz
+371 silly lockFile 640f099c--parser-node-modules-on-finished tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished
+372 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished /home/karan/.npm/640f099c--parser-node-modules-on-finished.lock
+373 silly lockFile 26f8232b-pm-on-finished-2-2-1-package-tgz tar:///home/karan/.npm/on-finished/2.2.1/package.tgz
+374 verbose lock tar:///home/karan/.npm/on-finished/2.2.1/package.tgz /home/karan/.npm/26f8232b-pm-on-finished-2-2-1-package-tgz.lock
+375 verbose tar unpack /home/karan/.npm/qs/2.4.2/package.tgz
+376 silly lockFile e4eb6453-ules-body-parser-node-modules-qs tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/qs
+377 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/qs /home/karan/.npm/e4eb6453-ules-body-parser-node-modules-qs.lock
+378 silly lockFile 0a1d47a5-e-karan-npm-qs-2-4-2-package-tgz tar:///home/karan/.npm/qs/2.4.2/package.tgz
+379 verbose lock tar:///home/karan/.npm/qs/2.4.2/package.tgz /home/karan/.npm/0a1d47a5-e-karan-npm-qs-2-4-2-package-tgz.lock
+380 verbose tar unpack /home/karan/.npm/type-is/1.6.3/package.tgz
+381 silly lockFile c659c99f-body-parser-node-modules-type-is tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is
+382 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is /home/karan/.npm/c659c99f-body-parser-node-modules-type-is.lock
+383 silly lockFile 4909a46d-an-npm-type-is-1-6-3-package-tgz tar:///home/karan/.npm/type-is/1.6.3/package.tgz
+384 verbose lock tar:///home/karan/.npm/type-is/1.6.3/package.tgz /home/karan/.npm/4909a46d-an-npm-type-is-1-6-3-package-tgz.lock
+385 verbose tar unpack /home/karan/.npm/debug/2.2.0/package.tgz
+386 silly lockFile b46d43c2-s-body-parser-node-modules-debug tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug
+387 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug /home/karan/.npm/b46d43c2-s-body-parser-node-modules-debug.lock
+388 silly lockFile f7ec922a-aran-npm-debug-2-2-0-package-tgz tar:///home/karan/.npm/debug/2.2.0/package.tgz
+389 verbose lock tar:///home/karan/.npm/debug/2.2.0/package.tgz /home/karan/.npm/f7ec922a-aran-npm-debug-2-2-0-package-tgz.lock
+390 verbose tar unpack /home/karan/.npm/content-type/1.0.1/package.tgz
+391 silly lockFile 89d59e53-parser-node-modules-content-type tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/content-type
+392 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/content-type /home/karan/.npm/89d59e53-parser-node-modules-content-type.lock
+393 silly lockFile 76e3c426-m-content-type-1-0-1-package-tgz tar:///home/karan/.npm/content-type/1.0.1/package.tgz
+394 verbose lock tar:///home/karan/.npm/content-type/1.0.1/package.tgz /home/karan/.npm/76e3c426-m-content-type-1-0-1-package-tgz.lock
+395 verbose tar unpack /home/karan/.npm/raw-body/2.0.2/package.tgz
+396 silly lockFile a0162b38-ody-parser-node-modules-raw-body tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body
+397 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body /home/karan/.npm/a0162b38-ody-parser-node-modules-raw-body.lock
+398 silly lockFile 6f6e5b74-n-npm-raw-body-2-0-2-package-tgz tar:///home/karan/.npm/raw-body/2.0.2/package.tgz
+399 verbose lock tar:///home/karan/.npm/raw-body/2.0.2/package.tgz /home/karan/.npm/6f6e5b74-n-npm-raw-body-2-0-2-package-tgz.lock
+400 verbose tar unpack /home/karan/.npm/iconv-lite/0.4.8/package.tgz
+401 silly lockFile 8edc0801-y-parser-node-modules-iconv-lite tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/iconv-lite
+402 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/iconv-lite /home/karan/.npm/8edc0801-y-parser-node-modules-iconv-lite.lock
+403 silly lockFile f1149b91-npm-iconv-lite-0-4-8-package-tgz tar:///home/karan/.npm/iconv-lite/0.4.8/package.tgz
+404 verbose lock tar:///home/karan/.npm/iconv-lite/0.4.8/package.tgz /home/karan/.npm/f1149b91-npm-iconv-lite-0-4-8-package-tgz.lock
+405 verbose tar unpack /home/karan/.npm/depd/1.0.1/package.tgz
+406 silly lockFile ddd68ef0-es-body-parser-node-modules-depd tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/depd
+407 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/depd /home/karan/.npm/ddd68ef0-es-body-parser-node-modules-depd.lock
+408 silly lockFile 79d0b6f3-karan-npm-depd-1-0-1-package-tgz tar:///home/karan/.npm/depd/1.0.1/package.tgz
+409 verbose lock tar:///home/karan/.npm/depd/1.0.1/package.tgz /home/karan/.npm/79d0b6f3-karan-npm-depd-1-0-1-package-tgz.lock
+410 verbose tar unpack /home/karan/.npm/bytes/1.0.0/package.tgz
+411 silly lockFile 7937e521-s-body-parser-node-modules-bytes tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/bytes
+412 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/bytes /home/karan/.npm/7937e521-s-body-parser-node-modules-bytes.lock
+413 silly lockFile e01a0cb5-aran-npm-bytes-1-0-0-package-tgz tar:///home/karan/.npm/bytes/1.0.0/package.tgz
+414 verbose lock tar:///home/karan/.npm/bytes/1.0.0/package.tgz /home/karan/.npm/e01a0cb5-aran-npm-bytes-1-0-0-package-tgz.lock
+415 silly gunzTarPerm modes [ '775', '664' ]
+416 silly gunzTarPerm modes [ '775', '664' ]
+417 silly gunzTarPerm modes [ '775', '664' ]
+418 silly gunzTarPerm modes [ '775', '664' ]
+419 silly gunzTarPerm modes [ '775', '664' ]
+420 silly gunzTarPerm modes [ '775', '664' ]
+421 silly gunzTarPerm modes [ '775', '664' ]
+422 silly gunzTarPerm modes [ '775', '664' ]
+423 silly gunzTarPerm modes [ '775', '664' ]
+424 silly gunzTarPerm extractEntry package.json
+425 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+426 silly gunzTarPerm extractEntry package.json
+427 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+428 silly gunzTarPerm extractEntry package.json
+429 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+430 silly gunzTarPerm extractEntry package.json
+431 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+432 silly gunzTarPerm extractEntry package.json
+433 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+434 silly gunzTarPerm extractEntry package.json
+435 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+436 silly gunzTarPerm extractEntry README.md
+437 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+438 silly gunzTarPerm extractEntry LICENSE
+439 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+440 silly gunzTarPerm extractEntry .npmignore
+441 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+442 silly gunzTarPerm extractEntry README.md
+443 silly gunzTarPerm modified mode [ 'README.md', 493, 509 ]
+444 silly gunzTarPerm extractEntry README.md
+445 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+446 silly gunzTarPerm extractEntry LICENSE
+447 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+448 silly gunzTarPerm extractEntry .npmignore
+449 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+450 silly gunzTarPerm extractEntry node.js
+451 silly gunzTarPerm modified mode [ 'node.js', 420, 436 ]
+452 silly gunzTarPerm extractEntry README.md
+453 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+454 silly gunzTarPerm extractEntry LICENSE
+455 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+456 silly gunzTarPerm extractEntry LICENSE
+457 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+458 silly gunzTarPerm extractEntry index.js
+459 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+460 silly gunzTarPerm extractEntry index.js
+461 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+462 silly gunzTarPerm extractEntry HISTORY.md
+463 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+464 silly gunzTarPerm extractEntry LICENSE
+465 silly gunzTarPerm modified mode [ 'LICENSE', 493, 509 ]
+466 silly gunzTarPerm extractEntry index.js
+467 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+468 silly gunzTarPerm extractEntry index.js
+469 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+470 silly gunzTarPerm extractEntry HISTORY.md
+471 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+472 silly gunzTarPerm extractEntry debug.js
+473 silly gunzTarPerm modified mode [ 'debug.js', 420, 436 ]
+474 silly gunzTarPerm extractEntry browser.js
+475 silly gunzTarPerm modified mode [ 'browser.js', 420, 436 ]
+476 silly gunzTarPerm extractEntry index.js
+477 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+478 silly gunzTarPerm extractEntry HISTORY.md
+479 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+480 silly gunzTarPerm extractEntry History.md
+481 silly gunzTarPerm modified mode [ 'History.md', 438, 436 ]
+482 silly gunzTarPerm extractEntry Readme.md
+483 silly gunzTarPerm modified mode [ 'Readme.md', 438, 436 ]
+484 silly gunzTarPerm extractEntry lib/compat/buffer-concat.js
+485 silly gunzTarPerm modified mode [ 'lib/compat/buffer-concat.js', 438, 436 ]
+486 silly gunzTarPerm extractEntry lib/compat/callsite-tostring.js
+487 silly gunzTarPerm modified mode [ 'lib/compat/callsite-tostring.js', 438, 436 ]
+488 silly gunzTarPerm extractEntry lib/compat/index.js
+489 silly gunzTarPerm modified mode [ 'lib/compat/index.js', 438, 436 ]
+490 silly gunzTarPerm extractEntry package.json
+491 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+492 silly gunzTarPerm extractEntry README.md
+493 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+494 silly gunzTarPerm extractEntry LICENSE
+495 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+496 silly gunzTarPerm extractEntry CHANGELOG.md
+497 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 436 ]
+498 silly gunzTarPerm extractEntry CONTRIBUTING.md
+499 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 436 ]
+500 silly gunzTarPerm extractEntry Makefile
+501 silly gunzTarPerm modified mode [ 'Makefile', 420, 436 ]
+502 silly gunzTarPerm extractEntry .jshintignore
+503 silly gunzTarPerm modified mode [ '.jshintignore', 420, 436 ]
+504 silly gunzTarPerm extractEntry .jshintrc
+505 silly gunzTarPerm modified mode [ '.jshintrc', 420, 436 ]
+506 silly gunzTarPerm extractEntry lib/index.js
+507 silly gunzTarPerm modified mode [ 'lib/index.js', 493, 509 ]
+508 silly gunzTarPerm extractEntry lib/parse.js
+509 silly gunzTarPerm modified mode [ 'lib/parse.js', 493, 509 ]
+510 silly gunzTarPerm extractEntry lib/stringify.js
+511 silly gunzTarPerm modified mode [ 'lib/stringify.js', 493, 509 ]
+512 silly gunzTarPerm extractEntry lib/utils.js
+513 silly gunzTarPerm modified mode [ 'lib/utils.js', 493, 509 ]
+514 silly gunzTarPerm extractEntry .travis.yml
+515 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+516 silly gunzTarPerm extractEntry test/parse.js
+517 silly gunzTarPerm modified mode [ 'test/parse.js', 493, 509 ]
+518 silly gunzTarPerm extractEntry test/stringify.js
+519 silly gunzTarPerm modified mode [ 'test/stringify.js', 493, 509 ]
+520 silly gunzTarPerm extractEntry Readme.md
+521 silly gunzTarPerm modified mode [ 'Readme.md', 420, 436 ]
+522 silly gunzTarPerm extractEntry index.js
+523 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+524 silly gunzTarPerm extractEntry HISTORY.md
+525 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+526 silly gunzTarPerm extractEntry package.json
+527 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+528 silly gunzTarPerm extractEntry bower.json
+529 silly gunzTarPerm modified mode [ 'bower.json', 420, 436 ]
+530 silly gunzTarPerm extractEntry .jshintrc
+531 silly gunzTarPerm modified mode [ '.jshintrc', 420, 436 ]
+532 silly gunzTarPerm extractEntry .npmignore
+533 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+534 silly gunzTarPerm extractEntry index.js
+535 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+536 silly gunzTarPerm extractEntry History.md
+537 silly gunzTarPerm modified mode [ 'History.md', 420, 436 ]
+538 silly gunzTarPerm extractEntry Makefile
+539 silly gunzTarPerm modified mode [ 'Makefile', 420, 436 ]
+540 silly gunzTarPerm extractEntry component.json
+541 silly gunzTarPerm modified mode [ 'component.json', 420, 436 ]
+542 silly gunzTarPerm extractEntry Makefile
+543 silly gunzTarPerm modified mode [ 'Makefile', 420, 436 ]
+544 silly gunzTarPerm extractEntry Readme.md
+545 silly gunzTarPerm modified mode [ 'Readme.md', 420, 436 ]
+546 silly gunzTarPerm extractEntry component.json
+547 silly gunzTarPerm modified mode [ 'component.json', 420, 436 ]
+548 silly gunzTarPerm extractEntry package.json
+549 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+550 silly gunzTarPerm extractEntry .npmignore
+551 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+552 silly gunzTarPerm extractEntry README.md
+553 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+554 silly lockFile 640f099c--parser-node-modules-on-finished tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished
+555 silly lockFile 640f099c--parser-node-modules-on-finished tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished
+556 silly gunzTarPerm extractEntry History.md
+557 silly gunzTarPerm modified mode [ 'History.md', 420, 436 ]
+558 silly lockFile 89d59e53-parser-node-modules-content-type tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/content-type
+559 silly lockFile 89d59e53-parser-node-modules-content-type tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/content-type
+560 silly lockFile 26f8232b-pm-on-finished-2-2-1-package-tgz tar:///home/karan/.npm/on-finished/2.2.1/package.tgz
+561 silly lockFile 26f8232b-pm-on-finished-2-2-1-package-tgz tar:///home/karan/.npm/on-finished/2.2.1/package.tgz
+562 silly lockFile 76e3c426-m-content-type-1-0-1-package-tgz tar:///home/karan/.npm/content-type/1.0.1/package.tgz
+563 silly lockFile 76e3c426-m-content-type-1-0-1-package-tgz tar:///home/karan/.npm/content-type/1.0.1/package.tgz
+564 info preinstall on-finished@2.2.1
+565 info preinstall content-type@1.0.1
+566 silly lockFile c659c99f-body-parser-node-modules-type-is tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is
+567 silly lockFile c659c99f-body-parser-node-modules-type-is tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is
+568 silly lockFile 4909a46d-an-npm-type-is-1-6-3-package-tgz tar:///home/karan/.npm/type-is/1.6.3/package.tgz
+569 silly lockFile 4909a46d-an-npm-type-is-1-6-3-package-tgz tar:///home/karan/.npm/type-is/1.6.3/package.tgz
+570 verbose readDependencies using package.json deps
+571 verbose readDependencies using package.json deps
+572 verbose readDependencies using package.json deps
+573 verbose readDependencies using package.json deps
+574 silly resolved []
+575 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/content-type
+576 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/content-type
+577 verbose linkStuff [ false,
+577 verbose linkStuff   false,
+577 verbose linkStuff   false,
+577 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules' ]
+578 info linkStuff content-type@1.0.1
+579 verbose linkBins content-type@1.0.1
+580 verbose linkMans content-type@1.0.1
+581 verbose rebuildBundles content-type@1.0.1
+582 silly gunzTarPerm extractEntry LICENSE
+583 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+584 silly gunzTarPerm extractEntry encodings/dbcs-codec.js
+585 silly gunzTarPerm modified mode [ 'encodings/dbcs-codec.js', 420, 436 ]
+586 verbose cache add [ 'ee-first@1.1.0', null ]
+587 verbose cache add name=undefined spec="ee-first@1.1.0" args=["ee-first@1.1.0",null]
+588 verbose parsed url { protocol: null,
+588 verbose parsed url   slashes: null,
+588 verbose parsed url   auth: null,
+588 verbose parsed url   host: null,
+588 verbose parsed url   port: null,
+588 verbose parsed url   hostname: null,
+588 verbose parsed url   hash: null,
+588 verbose parsed url   search: null,
+588 verbose parsed url   query: null,
+588 verbose parsed url   pathname: 'ee-first@1.1.0',
+588 verbose parsed url   path: 'ee-first@1.1.0',
+588 verbose parsed url   href: 'ee-first@1.1.0' }
+589 info install content-type@1.0.1
+590 verbose cache add name="ee-first" spec="1.1.0" args=["ee-first","1.1.0"]
+591 verbose parsed url { protocol: null,
+591 verbose parsed url   slashes: null,
+591 verbose parsed url   auth: null,
+591 verbose parsed url   host: null,
+591 verbose parsed url   port: null,
+591 verbose parsed url   hostname: null,
+591 verbose parsed url   hash: null,
+591 verbose parsed url   search: null,
+591 verbose parsed url   query: null,
+591 verbose parsed url   pathname: '1.1.0',
+591 verbose parsed url   path: '1.1.0',
+591 verbose parsed url   href: '1.1.0' }
+592 verbose addNamed [ 'ee-first', '1.1.0' ]
+593 verbose addNamed [ '1.1.0', '1.1.0' ]
+594 silly lockFile ca4050b9-ee-first-1-1-0 ee-first@1.1.0
+595 verbose lock ee-first@1.1.0 /home/karan/.npm/ca4050b9-ee-first-1-1-0.lock
+596 info preinstall type-is@1.6.3
+597 info postinstall content-type@1.0.1
+598 verbose readDependencies using package.json deps
+599 verbose readDependencies using package.json deps
+600 silly gunzTarPerm extractEntry encodings/dbcs-data.js
+601 silly gunzTarPerm modified mode [ 'encodings/dbcs-data.js', 420, 436 ]
+602 verbose cache add [ 'media-typer@0.3.0', null ]
+603 verbose cache add name=undefined spec="media-typer@0.3.0" args=["media-typer@0.3.0",null]
+604 verbose parsed url { protocol: null,
+604 verbose parsed url   slashes: null,
+604 verbose parsed url   auth: null,
+604 verbose parsed url   host: null,
+604 verbose parsed url   port: null,
+604 verbose parsed url   hostname: null,
+604 verbose parsed url   hash: null,
+604 verbose parsed url   search: null,
+604 verbose parsed url   query: null,
+604 verbose parsed url   pathname: 'media-typer@0.3.0',
+604 verbose parsed url   path: 'media-typer@0.3.0',
+604 verbose parsed url   href: 'media-typer@0.3.0' }
+605 verbose cache add [ 'mime-types@~2.1.1', null ]
+606 verbose cache add name=undefined spec="mime-types@~2.1.1" args=["mime-types@~2.1.1",null]
+607 verbose parsed url { protocol: null,
+607 verbose parsed url   slashes: null,
+607 verbose parsed url   auth: null,
+607 verbose parsed url   host: null,
+607 verbose parsed url   port: null,
+607 verbose parsed url   hostname: null,
+607 verbose parsed url   hash: null,
+607 verbose parsed url   search: null,
+607 verbose parsed url   query: null,
+607 verbose parsed url   pathname: 'mime-types@~2.1.1',
+607 verbose parsed url   path: 'mime-types@~2.1.1',
+607 verbose parsed url   href: 'mime-types@~2.1.1' }
+608 verbose request where is /ee-first
+609 verbose request registry https://registry.npmjs.org/
+610 verbose url raw /ee-first
+611 verbose url resolving [ 'https://registry.npmjs.org/', './ee-first' ]
+612 verbose url resolved https://registry.npmjs.org/ee-first
+613 verbose request where is https://registry.npmjs.org/ee-first
+614 info trying registry request attempt 1 at 13:34:54
+615 verbose etag "28AY4PMFXJHG8YALE6QZHIRHL"
+616 http GET https://registry.npmjs.org/ee-first
+617 verbose cache add name="media-typer" spec="0.3.0" args=["media-typer","0.3.0"]
+618 verbose parsed url { protocol: null,
+618 verbose parsed url   slashes: null,
+618 verbose parsed url   auth: null,
+618 verbose parsed url   host: null,
+618 verbose parsed url   port: null,
+618 verbose parsed url   hostname: null,
+618 verbose parsed url   hash: null,
+618 verbose parsed url   search: null,
+618 verbose parsed url   query: null,
+618 verbose parsed url   pathname: '0.3.0',
+618 verbose parsed url   path: '0.3.0',
+618 verbose parsed url   href: '0.3.0' }
+619 verbose addNamed [ 'media-typer', '0.3.0' ]
+620 verbose addNamed [ '0.3.0', '0.3.0' ]
+621 silly lockFile a6fc3981-media-typer-0-3-0 media-typer@0.3.0
+622 verbose lock media-typer@0.3.0 /home/karan/.npm/a6fc3981-media-typer-0-3-0.lock
+623 verbose cache add name="mime-types" spec="~2.1.1" args=["mime-types","~2.1.1"]
+624 verbose parsed url { protocol: null,
+624 verbose parsed url   slashes: null,
+624 verbose parsed url   auth: null,
+624 verbose parsed url   host: null,
+624 verbose parsed url   port: null,
+624 verbose parsed url   hostname: null,
+624 verbose parsed url   hash: null,
+624 verbose parsed url   search: null,
+624 verbose parsed url   query: null,
+624 verbose parsed url   pathname: '~2.1.1',
+624 verbose parsed url   path: '~2.1.1',
+624 verbose parsed url   href: '~2.1.1' }
+625 verbose addNamed [ 'mime-types', '~2.1.1' ]
+626 verbose addNamed [ null, '>=2.1.1-0 <2.2.0-0' ]
+627 silly lockFile e3ad0422-mime-types-2-1-1 mime-types@~2.1.1
+628 verbose lock mime-types@~2.1.1 /home/karan/.npm/e3ad0422-mime-types-2-1-1.lock
+629 silly addNameRange { name: 'mime-types',
+629 silly addNameRange   range: '>=2.1.1-0 <2.2.0-0',
+629 silly addNameRange   hasData: false }
+630 verbose request where is /media-typer
+631 verbose request registry https://registry.npmjs.org/
+632 verbose url raw /media-typer
+633 verbose url resolving [ 'https://registry.npmjs.org/', './media-typer' ]
+634 verbose url resolved https://registry.npmjs.org/media-typer
+635 verbose request where is https://registry.npmjs.org/media-typer
+636 info trying registry request attempt 1 at 13:34:54
+637 verbose etag "EBBA17SMBE80K6FCTCN6G8KK3"
+638 http GET https://registry.npmjs.org/media-typer
+639 verbose request where is /mime-types
+640 verbose request registry https://registry.npmjs.org/
+641 verbose url raw /mime-types
+642 verbose url resolving [ 'https://registry.npmjs.org/', './mime-types' ]
+643 verbose url resolved https://registry.npmjs.org/mime-types
+644 verbose request where is https://registry.npmjs.org/mime-types
+645 info trying registry request attempt 1 at 13:34:54
+646 verbose etag "1BBNRR7ZNQD70V8054WFXXI8G"
+647 http GET https://registry.npmjs.org/mime-types
+648 silly lockFile a0162b38-ody-parser-node-modules-raw-body tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body
+649 silly lockFile a0162b38-ody-parser-node-modules-raw-body tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body
+650 silly lockFile 6f6e5b74-n-npm-raw-body-2-0-2-package-tgz tar:///home/karan/.npm/raw-body/2.0.2/package.tgz
+651 silly lockFile 6f6e5b74-n-npm-raw-body-2-0-2-package-tgz tar:///home/karan/.npm/raw-body/2.0.2/package.tgz
+652 info preinstall raw-body@2.0.2
+653 silly gunzTarPerm extractEntry encodings/index.js
+654 silly gunzTarPerm modified mode [ 'encodings/index.js', 420, 436 ]
+655 silly gunzTarPerm extractEntry encodings/internal.js
+656 silly gunzTarPerm modified mode [ 'encodings/internal.js', 420, 436 ]
+657 silly lockFile 7937e521-s-body-parser-node-modules-bytes tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/bytes
+658 silly lockFile 7937e521-s-body-parser-node-modules-bytes tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/bytes
+659 verbose readDependencies using package.json deps
+660 silly lockFile e01a0cb5-aran-npm-bytes-1-0-0-package-tgz tar:///home/karan/.npm/bytes/1.0.0/package.tgz
+661 silly lockFile e01a0cb5-aran-npm-bytes-1-0-0-package-tgz tar:///home/karan/.npm/bytes/1.0.0/package.tgz
+662 verbose readDependencies using package.json deps
+663 info preinstall bytes@1.0.0
+664 verbose cache add [ 'bytes@2.1.0', null ]
+665 verbose cache add name=undefined spec="bytes@2.1.0" args=["bytes@2.1.0",null]
+666 verbose parsed url { protocol: null,
+666 verbose parsed url   slashes: null,
+666 verbose parsed url   auth: null,
+666 verbose parsed url   host: null,
+666 verbose parsed url   port: null,
+666 verbose parsed url   hostname: null,
+666 verbose parsed url   hash: null,
+666 verbose parsed url   search: null,
+666 verbose parsed url   query: null,
+666 verbose parsed url   pathname: 'bytes@2.1.0',
+666 verbose parsed url   path: 'bytes@2.1.0',
+666 verbose parsed url   href: 'bytes@2.1.0' }
+667 verbose cache add name="bytes" spec="2.1.0" args=["bytes","2.1.0"]
+668 verbose parsed url { protocol: null,
+668 verbose parsed url   slashes: null,
+668 verbose parsed url   auth: null,
+668 verbose parsed url   host: null,
+668 verbose parsed url   port: null,
+668 verbose parsed url   hostname: null,
+668 verbose parsed url   hash: null,
+668 verbose parsed url   search: null,
+668 verbose parsed url   query: null,
+668 verbose parsed url   pathname: '2.1.0',
+668 verbose parsed url   path: '2.1.0',
+668 verbose parsed url   href: '2.1.0' }
+669 verbose addNamed [ 'bytes', '2.1.0' ]
+670 verbose addNamed [ '2.1.0', '2.1.0' ]
+671 silly lockFile f962fd80-bytes-2-1-0 bytes@2.1.0
+672 verbose lock bytes@2.1.0 /home/karan/.npm/f962fd80-bytes-2-1-0.lock
+673 verbose readDependencies using package.json deps
+674 silly gunzTarPerm extractEntry encodings/sbcs-codec.js
+675 silly gunzTarPerm modified mode [ 'encodings/sbcs-codec.js', 420, 436 ]
+676 silly gunzTarPerm extractEntry encodings/sbcs-data-generated.js
+677 silly gunzTarPerm modified mode [ 'encodings/sbcs-data-generated.js', 420, 436 ]
+678 silly gunzTarPerm extractEntry encodings/sbcs-data.js
+679 silly gunzTarPerm modified mode [ 'encodings/sbcs-data.js', 420, 436 ]
+680 verbose readDependencies using package.json deps
+681 silly resolved []
+682 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/bytes
+683 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/bytes
+684 verbose linkStuff [ false,
+684 verbose linkStuff   false,
+684 verbose linkStuff   false,
+684 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules' ]
+685 info linkStuff bytes@1.0.0
+686 verbose linkBins bytes@1.0.0
+687 verbose linkMans bytes@1.0.0
+688 verbose rebuildBundles bytes@1.0.0
+689 info install bytes@1.0.0
+690 info postinstall bytes@1.0.0
+691 verbose registry.get https://registry.npmjs.org/bytes not expired, no request
+692 silly lockFile ddd68ef0-es-body-parser-node-modules-depd tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/depd
+693 silly lockFile ddd68ef0-es-body-parser-node-modules-depd tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/depd
+694 silly lockFile 79d0b6f3-karan-npm-depd-1-0-1-package-tgz tar:///home/karan/.npm/depd/1.0.1/package.tgz
+695 silly lockFile 79d0b6f3-karan-npm-depd-1-0-1-package-tgz tar:///home/karan/.npm/depd/1.0.1/package.tgz
+696 info preinstall depd@1.0.1
+697 verbose readDependencies using package.json deps
+698 verbose readDependencies using package.json deps
+699 silly resolved []
+700 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/depd
+701 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/depd
+702 verbose linkStuff [ false,
+702 verbose linkStuff   false,
+702 verbose linkStuff   false,
+702 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules' ]
+703 info linkStuff depd@1.0.1
+704 verbose linkBins depd@1.0.1
+705 verbose linkMans depd@1.0.1
+706 verbose rebuildBundles depd@1.0.1
+707 info install depd@1.0.1
+708 info postinstall depd@1.0.1
+709 silly lockFile b46d43c2-s-body-parser-node-modules-debug tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug
+710 silly lockFile b46d43c2-s-body-parser-node-modules-debug tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug
+711 silly lockFile f7ec922a-aran-npm-debug-2-2-0-package-tgz tar:///home/karan/.npm/debug/2.2.0/package.tgz
+712 silly lockFile f7ec922a-aran-npm-debug-2-2-0-package-tgz tar:///home/karan/.npm/debug/2.2.0/package.tgz
+713 silly gunzTarPerm extractEntry encodings/utf16.js
+714 silly gunzTarPerm modified mode [ 'encodings/utf16.js', 420, 436 ]
+715 info preinstall debug@2.2.0
+716 verbose readDependencies using package.json deps
+717 verbose readDependencies using package.json deps
+718 verbose cache add [ 'ms@0.7.1', null ]
+719 verbose cache add name=undefined spec="ms@0.7.1" args=["ms@0.7.1",null]
+720 verbose parsed url { protocol: null,
+720 verbose parsed url   slashes: null,
+720 verbose parsed url   auth: null,
+720 verbose parsed url   host: null,
+720 verbose parsed url   port: null,
+720 verbose parsed url   hostname: null,
+720 verbose parsed url   hash: null,
+720 verbose parsed url   search: null,
+720 verbose parsed url   query: null,
+720 verbose parsed url   pathname: 'ms@0.7.1',
+720 verbose parsed url   path: 'ms@0.7.1',
+720 verbose parsed url   href: 'ms@0.7.1' }
+721 verbose cache add name="ms" spec="0.7.1" args=["ms","0.7.1"]
+722 verbose parsed url { protocol: null,
+722 verbose parsed url   slashes: null,
+722 verbose parsed url   auth: null,
+722 verbose parsed url   host: null,
+722 verbose parsed url   port: null,
+722 verbose parsed url   hostname: null,
+722 verbose parsed url   hash: null,
+722 verbose parsed url   search: null,
+722 verbose parsed url   query: null,
+722 verbose parsed url   pathname: '0.7.1',
+722 verbose parsed url   path: '0.7.1',
+722 verbose parsed url   href: '0.7.1' }
+723 verbose addNamed [ 'ms', '0.7.1' ]
+724 verbose addNamed [ '0.7.1', '0.7.1' ]
+725 silly lockFile 3dba240c-ms-0-7-1 ms@0.7.1
+726 verbose lock ms@0.7.1 /home/karan/.npm/3dba240c-ms-0-7-1.lock
+727 silly lockFile f962fd80-bytes-2-1-0 bytes@2.1.0
+728 silly lockFile f962fd80-bytes-2-1-0 bytes@2.1.0
+729 silly gunzTarPerm extractEntry encodings/utf7.js
+730 silly gunzTarPerm modified mode [ 'encodings/utf7.js', 420, 436 ]
+731 silly gunzTarPerm extractEntry encodings/tables/big5-added.json
+732 silly gunzTarPerm modified mode [ 'encodings/tables/big5-added.json', 420, 436 ]
+733 verbose request where is /ms
+734 verbose request registry https://registry.npmjs.org/
+735 verbose url raw /ms
+736 verbose url resolving [ 'https://registry.npmjs.org/', './ms' ]
+737 verbose url resolved https://registry.npmjs.org/ms
+738 verbose request where is https://registry.npmjs.org/ms
+739 info trying registry request attempt 1 at 13:34:54
+740 verbose etag "C7IT6G0C870XWLGH92QTO2KNM"
+741 http GET https://registry.npmjs.org/ms
+742 silly resolved [ { name: 'bytes',
+742 silly resolved     description: 'Utility to parse a string bytes to bytes and vice-versa',
+742 silly resolved     version: '2.1.0',
+742 silly resolved     author:
+742 silly resolved      { name: 'TJ Holowaychuk',
+742 silly resolved        email: 'tj@vision-media.ca',
+742 silly resolved        url: 'http://tjholowaychuk.com' },
+742 silly resolved     contributors: [ [Object] ],
+742 silly resolved     license: 'MIT',
+742 silly resolved     keywords:
+742 silly resolved      [ 'byte',
+742 silly resolved        'bytes',
+742 silly resolved        'utility',
+742 silly resolved        'parse',
+742 silly resolved        'parser',
+742 silly resolved        'convert',
+742 silly resolved        'converter' ],
+742 silly resolved     repository: { type: 'git', url: 'https://github.com/visionmedia/bytes.js' },
+742 silly resolved     component: { scripts: [Object] },
+742 silly resolved     devDependencies: { mocha: '*' },
+742 silly resolved     files: [ 'History.md', 'LICENSE', 'Readme.md', 'index.js' ],
+742 silly resolved     scripts: { test: 'mocha --check-leaks --reporter spec' },
+742 silly resolved     gitHead: '86e4520cc369b34866154a53344ca50b2bb5ddcd',
+742 silly resolved     bugs: { url: 'https://github.com/visionmedia/bytes.js/issues' },
+742 silly resolved     homepage: 'https://github.com/visionmedia/bytes.js',
+742 silly resolved     _id: 'bytes@2.1.0',
+742 silly resolved     _shasum: 'ac93c410e2ffc9cc7cf4b464b38289067f5e47b4',
+742 silly resolved     _from: 'bytes@2.1.0',
+742 silly resolved     _npmVersion: '1.4.28',
+742 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+742 silly resolved     maintainers: [ [Object], [Object] ],
+742 silly resolved     dist:
+742 silly resolved      { shasum: 'ac93c410e2ffc9cc7cf4b464b38289067f5e47b4',
+742 silly resolved        tarball: 'http://registry.npmjs.org/bytes/-/bytes-2.1.0.tgz' },
+742 silly resolved     directories: {},
+742 silly resolved     _resolved: 'https://registry.npmjs.org/bytes/-/bytes-2.1.0.tgz',
+742 silly resolved     readme: 'ERROR: No README data found!' } ]
+743 info install bytes@2.1.0 into /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body
+744 info installOne bytes@2.1.0
+745 verbose node_modules/body-parser/node_modules/raw-body/node_modules/bytes unbuild
+746 verbose tar unpack /home/karan/.npm/bytes/2.1.0/package.tgz
+747 silly lockFile 9c53347a-ules-raw-body-node-modules-bytes tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body/node_modules/bytes
+748 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body/node_modules/bytes /home/karan/.npm/9c53347a-ules-raw-body-node-modules-bytes.lock
+749 silly lockFile 4d4005ab-aran-npm-bytes-2-1-0-package-tgz tar:///home/karan/.npm/bytes/2.1.0/package.tgz
+750 verbose lock tar:///home/karan/.npm/bytes/2.1.0/package.tgz /home/karan/.npm/4d4005ab-aran-npm-bytes-2-1-0-package-tgz.lock
+751 silly gunzTarPerm modes [ '775', '664' ]
+752 silly gunzTarPerm extractEntry package.json
+753 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+754 silly gunzTarPerm extractEntry encodings/tables/cp936.json
+755 silly gunzTarPerm modified mode [ 'encodings/tables/cp936.json', 420, 436 ]
+756 silly gunzTarPerm extractEntry index.js
+757 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+758 silly gunzTarPerm extractEntry History.md
+759 silly gunzTarPerm modified mode [ 'History.md', 438, 436 ]
+760 silly gunzTarPerm extractEntry encodings/tables/cp949.json
+761 silly gunzTarPerm modified mode [ 'encodings/tables/cp949.json', 420, 436 ]
+762 silly gunzTarPerm extractEntry encodings/tables/cp950.json
+763 silly gunzTarPerm modified mode [ 'encodings/tables/cp950.json', 420, 436 ]
+764 silly gunzTarPerm extractEntry encodings/tables/eucjp.json
+765 silly gunzTarPerm modified mode [ 'encodings/tables/eucjp.json', 420, 436 ]
+766 silly gunzTarPerm extractEntry Readme.md
+767 silly gunzTarPerm modified mode [ 'Readme.md', 438, 436 ]
+768 silly gunzTarPerm extractEntry encodings/tables/gb18030-ranges.json
+769 silly gunzTarPerm modified mode [ 'encodings/tables/gb18030-ranges.json', 420, 436 ]
+770 silly gunzTarPerm extractEntry encodings/tables/gbk-added.json
+771 silly gunzTarPerm modified mode [ 'encodings/tables/gbk-added.json', 420, 436 ]
+772 silly gunzTarPerm extractEntry encodings/tables/shiftjis.json
+773 silly gunzTarPerm modified mode [ 'encodings/tables/shiftjis.json', 420, 436 ]
+774 silly gunzTarPerm extractEntry .travis.yml
+775 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+776 silly lockFile e4eb6453-ules-body-parser-node-modules-qs tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/qs
+777 silly lockFile e4eb6453-ules-body-parser-node-modules-qs tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/qs
+778 silly lockFile 0a1d47a5-e-karan-npm-qs-2-4-2-package-tgz tar:///home/karan/.npm/qs/2.4.2/package.tgz
+779 silly lockFile 0a1d47a5-e-karan-npm-qs-2-4-2-package-tgz tar:///home/karan/.npm/qs/2.4.2/package.tgz
+780 info preinstall qs@2.4.2
+781 verbose readDependencies using package.json deps
+782 verbose readDependencies using package.json deps
+783 silly resolved []
+784 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/qs
+785 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/qs
+786 verbose linkStuff [ false,
+786 verbose linkStuff   false,
+786 verbose linkStuff   false,
+786 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules' ]
+787 info linkStuff qs@2.4.2
+788 verbose linkBins qs@2.4.2
+789 verbose linkMans qs@2.4.2
+790 verbose rebuildBundles qs@2.4.2
+791 info install qs@2.4.2
+792 silly lockFile 9c53347a-ules-raw-body-node-modules-bytes tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body/node_modules/bytes
+793 silly lockFile 9c53347a-ules-raw-body-node-modules-bytes tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body/node_modules/bytes
+794 silly lockFile 4d4005ab-aran-npm-bytes-2-1-0-package-tgz tar:///home/karan/.npm/bytes/2.1.0/package.tgz
+795 silly lockFile 4d4005ab-aran-npm-bytes-2-1-0-package-tgz tar:///home/karan/.npm/bytes/2.1.0/package.tgz
+796 info postinstall qs@2.4.2
+797 info preinstall bytes@2.1.0
+798 verbose readDependencies using package.json deps
+799 verbose readDependencies using package.json deps
+800 silly resolved []
+801 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body/node_modules/bytes
+802 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body/node_modules/bytes
+803 verbose linkStuff [ false,
+803 verbose linkStuff   false,
+803 verbose linkStuff   false,
+803 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body/node_modules' ]
+804 info linkStuff bytes@2.1.0
+805 verbose linkBins bytes@2.1.0
+806 verbose linkMans bytes@2.1.0
+807 verbose rebuildBundles bytes@2.1.0
+808 info install bytes@2.1.0
+809 info postinstall bytes@2.1.0
+810 silly gunzTarPerm extractEntry lib/extend-node.js
+811 silly gunzTarPerm modified mode [ 'lib/extend-node.js', 420, 436 ]
+812 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body
+813 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/raw-body
+814 verbose linkStuff [ false,
+814 verbose linkStuff   false,
+814 verbose linkStuff   false,
+814 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules' ]
+815 info linkStuff raw-body@2.0.2
+816 verbose linkBins raw-body@2.0.2
+817 verbose linkMans raw-body@2.0.2
+818 verbose rebuildBundles raw-body@2.0.2
+819 verbose rebuildBundles [ 'bytes' ]
+820 info install raw-body@2.0.2
+821 info postinstall raw-body@2.0.2
+822 silly gunzTarPerm extractEntry lib/index.js
+823 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 436 ]
+824 silly gunzTarPerm extractEntry lib/streams.js
+825 silly gunzTarPerm modified mode [ 'lib/streams.js', 420, 436 ]
+826 silly gunzTarPerm extractEntry Changelog.md
+827 silly gunzTarPerm modified mode [ 'Changelog.md', 420, 436 ]
+828 silly lockFile 8edc0801-y-parser-node-modules-iconv-lite tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/iconv-lite
+829 silly lockFile 8edc0801-y-parser-node-modules-iconv-lite tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/iconv-lite
+830 silly lockFile f1149b91-npm-iconv-lite-0-4-8-package-tgz tar:///home/karan/.npm/iconv-lite/0.4.8/package.tgz
+831 silly lockFile f1149b91-npm-iconv-lite-0-4-8-package-tgz tar:///home/karan/.npm/iconv-lite/0.4.8/package.tgz
+832 info preinstall iconv-lite@0.4.8
+833 verbose readDependencies using package.json deps
+834 verbose readDependencies using package.json deps
+835 silly resolved []
+836 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/iconv-lite
+837 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/iconv-lite
+838 verbose linkStuff [ false,
+838 verbose linkStuff   false,
+838 verbose linkStuff   false,
+838 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules' ]
+839 info linkStuff iconv-lite@0.4.8
+840 verbose linkBins iconv-lite@0.4.8
+841 verbose linkMans iconv-lite@0.4.8
+842 verbose rebuildBundles iconv-lite@0.4.8
+843 info install iconv-lite@0.4.8
+844 info postinstall iconv-lite@0.4.8
+845 http 304 https://registry.npmjs.org/ee-first
+846 silly registry.get cb [ 304,
+846 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:54 GMT',
+846 silly registry.get     via: '1.1 varnish',
+846 silly registry.get     'cache-control': 'max-age=60',
+846 silly registry.get     etag: '"28AY4PMFXJHG8YALE6QZHIRHL"',
+846 silly registry.get     age: '47',
+846 silly registry.get     connection: 'keep-alive',
+846 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+846 silly registry.get     'x-cache': 'HIT',
+846 silly registry.get     'x-cache-hits': '3',
+846 silly registry.get     'x-timer': 'S1434096294.693566,VS0,VE0',
+846 silly registry.get     vary: 'Accept' } ]
+847 verbose etag https://registry.npmjs.org/ee-first from cache
+848 silly lockFile ca4050b9-ee-first-1-1-0 ee-first@1.1.0
+849 silly lockFile ca4050b9-ee-first-1-1-0 ee-first@1.1.0
+850 silly resolved [ { name: 'ee-first',
+850 silly resolved     description: 'return the first event in a set of ee/event pairs',
+850 silly resolved     version: '1.1.0',
+850 silly resolved     author:
+850 silly resolved      { name: 'Jonathan Ong',
+850 silly resolved        email: 'me@jongleberry.com',
+850 silly resolved        url: 'http://jongleberry.com' },
+850 silly resolved     contributors: [ [Object] ],
+850 silly resolved     license: 'MIT',
+850 silly resolved     repository:
+850 silly resolved      { type: 'git',
+850 silly resolved        url: 'git+https://github.com/jonathanong/ee-first.git' },
+850 silly resolved     devDependencies: { istanbul: '0.3.2', mocha: '1' },
+850 silly resolved     files: [ 'index.js', 'LICENSE' ],
+850 silly resolved     scripts:
+850 silly resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+850 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+850 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+850 silly resolved     readme: '# EE First\r\n\r\n[![NPM version][npm-image]][npm-url]\r\n[![Build status][travis-image]][travis-url]\r\n[![Test coverage][coveralls-image]][coveralls-url]\r\n[![License][license-image]][license-url]\r\n[![Downloads][downloads-image]][downloads-url]\r\n[![Gittip][gittip-image]][gittip-url]\r\n\r\nGet the first event in a set of event emitters and event pairs,\r\nthen clean up after itself.\r\n\r\n## Install\r\n\r\n```sh\r\n$ npm install ee-first\r\n```\r\n\r\n## API\r\n\r\n```js\r\nvar first = require(\'ee-first\')\r\n```\r\n\r\n### first(arr, listener)\r\n\r\nInvoke `listener` on the first event from the list specified in `arr`. `arr` is\r\nan array of arrays, with each array in the format `[ee, ...event]`. `listener`\r\nwill be called only once, the first time any of the given events are emitted. If\r\n`error` is one of the listened events, then if that fires first, the `listener`\r\nwill be given the `err` argument.\r\n\r\nThe `listener` is invoked as `listener(err, ee, event, args)`, where `err` is the\r\nfirst argument emitted from an `error` event, if applicable; `ee` is the event\r\nemitter that fired; `event` is the string event name that fired; and `args` is an\r\narray of the arguments that were emitted on the event.\r\n\r\n```js\r\nvar ee1 = new EventEmitter()\r\nvar ee2 = new EventEmitter()\r\n\r\nfirst([\r\n  [ee1, \'close\', \'end\', \'error\'],\r\n  [ee2, \'error\']\r\n], function (err, ee, event, args) {\r\n  // listener invoked\r\n})\r\n```\r\n\r\n#### .cancel()\r\n\r\nThe group of listeners can be cancelled before being invoked and have all the event\r\nlisteners removed from the underlying event emitters.\r\n\r\n```js\r\nvar thunk = first([\r\n  [ee1, \'close\', \'end\', \'error\'],\r\n  [ee2, \'error\']\r\n], function (err, ee, event, args) {\r\n  // listener invoked\r\n})\r\n\r\n// cancel and clean up\r\nthunk.cancel()\r\n```\r\n\r\n[npm-image]: https://img.shields.io/npm/v/ee-first.svg?style=flat-square\r\n[npm-url]: https://npmjs.org/package/ee-first\r\n[github-tag]: http://img.shields.io/github/tag/jonathanong/ee-first.svg?style=flat-square\r\n[github-url]: https://github.com/jonathanong/ee-first/tags\r\n[travis-image]: https://img.shields.io/travis/jonathanong/ee-first.svg?style=flat-square\r\n[travis-url]: https://travis-ci.org/jonathanong/ee-first\r\n[coveralls-image]: https://img.shields.io/coveralls/jonathanong/ee-first.svg?style=flat-square\r\n[coveralls-url]: https://coveralls.io/r/jonathanong/ee-first?branch=master\r\n[license-image]: http://img.shields.io/npm/l/ee-first.svg?style=flat-square\r\n[license-url]: LICENSE.md\r\n[downloads-image]: http://img.shields.io/npm/dm/ee-first.svg?style=flat-square\r\n[downloads-url]: https://npmjs.org/package/ee-first\r\n[gittip-image]: https://img.shields.io/gittip/jonathanong.svg?style=flat-square\r\n[gittip-url]: https://www.gittip.com/jonathanong/\r\n',
+850 silly resolved     readmeFilename: 'README.md',
+850 silly resolved     bugs: { url: 'https://github.com/jonathanong/ee-first/issues' },
+850 silly resolved     homepage: 'https://github.com/jonathanong/ee-first',
+850 silly resolved     _id: 'ee-first@1.1.0',
+850 silly resolved     _shasum: '6a0d7c6221e490feefd92ec3f441c9ce8cd097f4',
+850 silly resolved     _from: 'ee-first@1.1.0',
+850 silly resolved     _resolved: 'https://registry.npmjs.org/ee-first/-/ee-first-1.1.0.tgz' } ]
+851 info install ee-first@1.1.0 into /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished
+852 info installOne ee-first@1.1.0
+853 verbose node_modules/body-parser/node_modules/on-finished/node_modules/ee-first unbuild
+854 verbose tar unpack /home/karan/.npm/ee-first/1.1.0/package.tgz
+855 silly lockFile e1ccdb4f-n-finished-node-modules-ee-first tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+856 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first /home/karan/.npm/e1ccdb4f-n-finished-node-modules-ee-first.lock
+857 silly lockFile 6b8e263b-n-npm-ee-first-1-1-0-package-tgz tar:///home/karan/.npm/ee-first/1.1.0/package.tgz
+858 verbose lock tar:///home/karan/.npm/ee-first/1.1.0/package.tgz /home/karan/.npm/6b8e263b-n-npm-ee-first-1-1-0-package-tgz.lock
+859 silly gunzTarPerm modes [ '775', '664' ]
+860 silly gunzTarPerm extractEntry package.json
+861 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+862 silly gunzTarPerm extractEntry README.md
+863 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+864 silly gunzTarPerm extractEntry LICENSE
+865 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+866 silly gunzTarPerm extractEntry index.js
+867 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+868 silly lockFile e1ccdb4f-n-finished-node-modules-ee-first tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+869 silly lockFile e1ccdb4f-n-finished-node-modules-ee-first tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+870 silly lockFile 6b8e263b-n-npm-ee-first-1-1-0-package-tgz tar:///home/karan/.npm/ee-first/1.1.0/package.tgz
+871 silly lockFile 6b8e263b-n-npm-ee-first-1-1-0-package-tgz tar:///home/karan/.npm/ee-first/1.1.0/package.tgz
+872 info preinstall ee-first@1.1.0
+873 verbose readDependencies using package.json deps
+874 verbose readDependencies using package.json deps
+875 silly resolved []
+876 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+877 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+878 verbose linkStuff [ false,
+878 verbose linkStuff   false,
+878 verbose linkStuff   false,
+878 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished/node_modules' ]
+879 info linkStuff ee-first@1.1.0
+880 verbose linkBins ee-first@1.1.0
+881 verbose linkMans ee-first@1.1.0
+882 verbose rebuildBundles ee-first@1.1.0
+883 info install ee-first@1.1.0
+884 info postinstall ee-first@1.1.0
+885 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished
+886 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/on-finished
+887 verbose linkStuff [ false,
+887 verbose linkStuff   false,
+887 verbose linkStuff   false,
+887 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules' ]
+888 info linkStuff on-finished@2.2.1
+889 verbose linkBins on-finished@2.2.1
+890 verbose linkMans on-finished@2.2.1
+891 verbose rebuildBundles on-finished@2.2.1
+892 verbose rebuildBundles [ 'ee-first' ]
+893 info install on-finished@2.2.1
+894 info postinstall on-finished@2.2.1
+895 http 304 https://registry.npmjs.org/ms
+896 silly registry.get cb [ 304,
+896 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:54 GMT',
+896 silly registry.get     via: '1.1 varnish',
+896 silly registry.get     'cache-control': 'max-age=60',
+896 silly registry.get     etag: '"C7IT6G0C870XWLGH92QTO2KNM"',
+896 silly registry.get     age: '11',
+896 silly registry.get     connection: 'keep-alive',
+896 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+896 silly registry.get     'x-cache': 'HIT',
+896 silly registry.get     'x-cache-hits': '1',
+896 silly registry.get     'x-timer': 'S1434096294.744578,VS0,VE0',
+896 silly registry.get     vary: 'Accept' } ]
+897 verbose etag https://registry.npmjs.org/ms from cache
+898 silly lockFile 3dba240c-ms-0-7-1 ms@0.7.1
+899 silly lockFile 3dba240c-ms-0-7-1 ms@0.7.1
+900 silly resolved [ { name: 'ms',
+900 silly resolved     version: '0.7.1',
+900 silly resolved     description: 'Tiny ms conversion utility',
+900 silly resolved     repository: { type: 'git', url: 'git://github.com/guille/ms.js.git' },
+900 silly resolved     main: './index',
+900 silly resolved     devDependencies: { mocha: '*', 'expect.js': '*', serve: '*' },
+900 silly resolved     component: { scripts: [Object] },
+900 silly resolved     gitHead: '713dcf26d9e6fd9dbc95affe7eff9783b7f1b909',
+900 silly resolved     bugs: { url: 'https://github.com/guille/ms.js/issues' },
+900 silly resolved     homepage: 'https://github.com/guille/ms.js',
+900 silly resolved     _id: 'ms@0.7.1',
+900 silly resolved     scripts: {},
+900 silly resolved     _shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+900 silly resolved     _from: 'ms@0.7.1',
+900 silly resolved     _npmVersion: '2.7.5',
+900 silly resolved     _nodeVersion: '0.12.2',
+900 silly resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+900 silly resolved     maintainers: [ [Object] ],
+900 silly resolved     dist:
+900 silly resolved      { shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+900 silly resolved        tarball: 'http://registry.npmjs.org/ms/-/ms-0.7.1.tgz' },
+900 silly resolved     directories: {},
+900 silly resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz',
+900 silly resolved     readme: 'ERROR: No README data found!' } ]
+901 info install ms@0.7.1 into /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug
+902 info installOne ms@0.7.1
+903 verbose node_modules/body-parser/node_modules/debug/node_modules/ms unbuild
+904 verbose tar unpack /home/karan/.npm/ms/0.7.1/package.tgz
+905 silly lockFile dfdc60bb-de-modules-debug-node-modules-ms tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug/node_modules/ms
+906 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug/node_modules/ms /home/karan/.npm/dfdc60bb-de-modules-debug-node-modules-ms.lock
+907 silly lockFile d1402de1-e-karan-npm-ms-0-7-1-package-tgz tar:///home/karan/.npm/ms/0.7.1/package.tgz
+908 verbose lock tar:///home/karan/.npm/ms/0.7.1/package.tgz /home/karan/.npm/d1402de1-e-karan-npm-ms-0-7-1-package-tgz.lock
+909 silly gunzTarPerm modes [ '775', '664' ]
+910 silly gunzTarPerm extractEntry package.json
+911 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+912 silly gunzTarPerm extractEntry .npmignore
+913 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+914 silly gunzTarPerm extractEntry README.md
+915 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+916 silly gunzTarPerm extractEntry LICENSE
+917 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+918 silly gunzTarPerm extractEntry index.js
+919 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+920 silly gunzTarPerm extractEntry History.md
+921 silly gunzTarPerm modified mode [ 'History.md', 420, 436 ]
+922 silly lockFile dfdc60bb-de-modules-debug-node-modules-ms tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug/node_modules/ms
+923 silly lockFile dfdc60bb-de-modules-debug-node-modules-ms tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug/node_modules/ms
+924 silly lockFile d1402de1-e-karan-npm-ms-0-7-1-package-tgz tar:///home/karan/.npm/ms/0.7.1/package.tgz
+925 silly lockFile d1402de1-e-karan-npm-ms-0-7-1-package-tgz tar:///home/karan/.npm/ms/0.7.1/package.tgz
+926 info preinstall ms@0.7.1
+927 verbose readDependencies using package.json deps
+928 verbose readDependencies using package.json deps
+929 silly resolved []
+930 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug/node_modules/ms
+931 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug/node_modules/ms
+932 verbose linkStuff [ false,
+932 verbose linkStuff   false,
+932 verbose linkStuff   false,
+932 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug/node_modules' ]
+933 info linkStuff ms@0.7.1
+934 verbose linkBins ms@0.7.1
+935 verbose linkMans ms@0.7.1
+936 verbose rebuildBundles ms@0.7.1
+937 info install ms@0.7.1
+938 info postinstall ms@0.7.1
+939 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug
+940 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/debug
+941 verbose linkStuff [ false,
+941 verbose linkStuff   false,
+941 verbose linkStuff   false,
+941 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules' ]
+942 info linkStuff debug@2.2.0
+943 verbose linkBins debug@2.2.0
+944 verbose linkMans debug@2.2.0
+945 verbose rebuildBundles debug@2.2.0
+946 verbose rebuildBundles [ 'ms' ]
+947 info install debug@2.2.0
+948 info postinstall debug@2.2.0
+949 http 304 https://registry.npmjs.org/media-typer
+950 silly registry.get cb [ 304,
+950 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:59 GMT',
+950 silly registry.get     via: '1.1 varnish',
+950 silly registry.get     'cache-control': 'max-age=60',
+950 silly registry.get     etag: '"EBBA17SMBE80K6FCTCN6G8KK3"',
+950 silly registry.get     age: '52',
+950 silly registry.get     connection: 'keep-alive',
+950 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+950 silly registry.get     'x-cache': 'HIT',
+950 silly registry.get     'x-cache-hits': '1',
+950 silly registry.get     'x-timer': 'S1434096299.762907,VS0,VE0',
+950 silly registry.get     vary: 'Accept' } ]
+951 verbose etag https://registry.npmjs.org/media-typer from cache
+952 silly lockFile a6fc3981-media-typer-0-3-0 media-typer@0.3.0
+953 silly lockFile a6fc3981-media-typer-0-3-0 media-typer@0.3.0
+954 http 304 https://registry.npmjs.org/mime-types
+955 silly registry.get cb [ 304,
+955 silly registry.get   { date: 'Fri, 12 Jun 2015 08:04:59 GMT',
+955 silly registry.get     via: '1.1 varnish',
+955 silly registry.get     'cache-control': 'max-age=60',
+955 silly registry.get     etag: '"1BBNRR7ZNQD70V8054WFXXI8G"',
+955 silly registry.get     age: '0',
+955 silly registry.get     connection: 'keep-alive',
+955 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
+955 silly registry.get     'x-cache': 'HIT',
+955 silly registry.get     'x-cache-hits': '1',
+955 silly registry.get     'x-timer': 'S1434096299.855000,VS0,VE266',
+955 silly registry.get     vary: 'Accept' } ]
+956 verbose etag https://registry.npmjs.org/mime-types from cache
+957 silly addNameRange number 2 { name: 'mime-types',
+957 silly addNameRange   range: '>=2.1.1-0 <2.2.0-0',
+957 silly addNameRange   hasData: true }
+958 silly addNameRange versions [ 'mime-types',
+958 silly addNameRange   [ '0.1.0',
+958 silly addNameRange     '1.0.0',
+958 silly addNameRange     '1.0.1',
+958 silly addNameRange     '1.0.2',
+958 silly addNameRange     '2.0.0',
+958 silly addNameRange     '2.0.1',
+958 silly addNameRange     '2.0.2',
+958 silly addNameRange     '2.0.3',
+958 silly addNameRange     '2.0.4',
+958 silly addNameRange     '2.0.5',
+958 silly addNameRange     '2.0.6',
+958 silly addNameRange     '2.0.7',
+958 silly addNameRange     '2.0.8',
+958 silly addNameRange     '2.0.9',
+958 silly addNameRange     '2.0.10',
+958 silly addNameRange     '2.0.11',
+958 silly addNameRange     '2.0.12',
+958 silly addNameRange     '2.0.13',
+958 silly addNameRange     '2.0.14',
+958 silly addNameRange     '2.1.0',
+958 silly addNameRange     '2.1.1' ] ]
+959 verbose addNamed [ 'mime-types', '2.1.1' ]
+960 verbose addNamed [ '2.1.1', '2.1.1' ]
+961 silly lockFile 2f89bb57-mime-types-2-1-1 mime-types@2.1.1
+962 verbose lock mime-types@2.1.1 /home/karan/.npm/2f89bb57-mime-types-2-1-1.lock
+963 silly lockFile 2f89bb57-mime-types-2-1-1 mime-types@2.1.1
+964 silly lockFile 2f89bb57-mime-types-2-1-1 mime-types@2.1.1
+965 silly lockFile e3ad0422-mime-types-2-1-1 mime-types@~2.1.1
+966 silly lockFile e3ad0422-mime-types-2-1-1 mime-types@~2.1.1
+967 silly resolved [ { name: 'media-typer',
+967 silly resolved     description: 'Simple RFC 6838 media type parser and formatter',
+967 silly resolved     version: '0.3.0',
+967 silly resolved     author:
+967 silly resolved      { name: 'Douglas Christopher Wilson',
+967 silly resolved        email: 'doug@somethingdoug.com' },
+967 silly resolved     license: 'MIT',
+967 silly resolved     repository:
+967 silly resolved      { type: 'git',
+967 silly resolved        url: 'git+https://github.com/jshttp/media-typer.git' },
+967 silly resolved     devDependencies: { istanbul: '0.3.2', mocha: '~1.21.4', should: '~4.0.4' },
+967 silly resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+967 silly resolved     engines: { node: '>= 0.6' },
+967 silly resolved     scripts:
+967 silly resolved      { test: 'mocha --reporter spec --check-leaks --bail test/',
+967 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+967 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+967 silly resolved     readme: '# media-typer\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Node.js Version][node-version-image]][node-version-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nSimple RFC 6838 media type parser\n\n## Installation\n\n```sh\n$ npm install media-typer\n```\n\n## API\n\n```js\nvar typer = require(\'media-typer\')\n```\n\n### typer.parse(string)\n\n```js\nvar obj = typer.parse(\'image/svg+xml; charset=utf-8\')\n```\n\nParse a media type string. This will return an object with the following\nproperties (examples are shown for the string `\'image/svg+xml; charset=utf-8\'`):\n\n - `type`: The type of the media type (always lower case). Example: `\'image\'`\n\n - `subtype`: The subtype of the media type (always lower case). Example: `\'svg\'`\n\n - `suffix`: The suffix of the media type (always lower case). Example: `\'xml\'`\n\n - `parameters`: An object of the parameters in the media type (name of parameter always lower case). Example: `{charset: \'utf-8\'}`\n\n### typer.parse(req)\n\n```js\nvar obj = typer.parse(req)\n```\n\nParse the `content-type` header from the given `req`. Short-cut for\n`typer.parse(req.headers[\'content-type\'])`.\n\n### typer.parse(res)\n\n```js\nvar obj = typer.parse(res)\n```\n\nParse the `content-type` header set on the given `res`. Short-cut for\n`typer.parse(res.getHeader(\'content-type\'))`.\n\n### typer.format(obj)\n\n```js\nvar obj = typer.format({type: \'image\', subtype: \'svg\', suffix: \'xml\'})\n```\n\nFormat an object into a media type string. This will return a string of the\nmime type for the given object. For the properties of the object, see the\ndocumentation for `typer.parse(string)`.\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/media-typer.svg?style=flat\n[npm-url]: https://npmjs.org/package/media-typer\n[node-version-image]: https://img.shields.io/badge/node.js-%3E%3D_0.6-brightgreen.svg?style=flat\n[node-version-url]: http://nodejs.org/download/\n[travis-image]: https://img.shields.io/travis/jshttp/media-typer.svg?style=flat\n[travis-url]: https://travis-ci.org/jshttp/media-typer\n[coveralls-image]: https://img.shields.io/coveralls/jshttp/media-typer.svg?style=flat\n[coveralls-url]: https://coveralls.io/r/jshttp/media-typer\n[downloads-image]: https://img.shields.io/npm/dm/media-typer.svg?style=flat\n[downloads-url]: https://npmjs.org/package/media-typer\n',
+967 silly resolved     readmeFilename: 'README.md',
+967 silly resolved     bugs: { url: 'https://github.com/jshttp/media-typer/issues' },
+967 silly resolved     homepage: 'https://github.com/jshttp/media-typer',
+967 silly resolved     _id: 'media-typer@0.3.0',
+967 silly resolved     _shasum: '8710d7af0aa626f8fffa1ce00168545263255748',
+967 silly resolved     _from: 'media-typer@0.3.0',
+967 silly resolved     _resolved: 'https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz' },
+967 silly resolved   { name: 'mime-types',
+967 silly resolved     description: 'The ultimate javascript content-type utility.',
+967 silly resolved     version: '2.1.1',
+967 silly resolved     contributors: [ [Object], [Object], [Object] ],
+967 silly resolved     license: 'MIT',
+967 silly resolved     keywords: [ 'mime', 'types' ],
+967 silly resolved     repository: { type: 'git', url: 'https://github.com/jshttp/mime-types' },
+967 silly resolved     dependencies: { 'mime-db': '~1.13.0' },
+967 silly resolved     devDependencies: { istanbul: '0.3.14', mocha: '~1.21.5' },
+967 silly resolved     files: [ 'HISTORY.md', 'LICENSE', 'index.js' ],
+967 silly resolved     engines: { node: '>= 0.6' },
+967 silly resolved     scripts:
+967 silly resolved      { test: 'mocha --reporter spec test/test.js',
+967 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/test.js',
+967 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot test/test.js' },
+967 silly resolved     gitHead: 'c067c0b0d8a2e7df82c356dc295852688be1245c',
+967 silly resolved     bugs: { url: 'https://github.com/jshttp/mime-types/issues' },
+967 silly resolved     homepage: 'https://github.com/jshttp/mime-types',
+967 silly resolved     _id: 'mime-types@2.1.1',
+967 silly resolved     _shasum: 'c7b692796d5166f4826d10b4675c8a916657d04e',
+967 silly resolved     _from: 'mime-types@~2.1.1',
+967 silly resolved     _npmVersion: '1.4.28',
+967 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+967 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+967 silly resolved     dist:
+967 silly resolved      { shasum: 'c7b692796d5166f4826d10b4675c8a916657d04e',
+967 silly resolved        tarball: 'http://registry.npmjs.org/mime-types/-/mime-types-2.1.1.tgz' },
+967 silly resolved     directories: {},
+967 silly resolved     _resolved: 'https://registry.npmjs.org/mime-types/-/mime-types-2.1.1.tgz',
+967 silly resolved     readme: 'ERROR: No README data found!' } ]
+968 info install media-typer@0.3.0 into /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is
+969 info install mime-types@2.1.1 into /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is
+970 info installOne media-typer@0.3.0
+971 info installOne mime-types@2.1.1
+972 verbose node_modules/body-parser/node_modules/type-is/node_modules/media-typer unbuild
+973 verbose node_modules/body-parser/node_modules/type-is/node_modules/mime-types unbuild
+974 verbose tar unpack /home/karan/.npm/media-typer/0.3.0/package.tgz
+975 silly lockFile 248e5d5e-type-is-node-modules-media-typer tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+976 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/media-typer /home/karan/.npm/248e5d5e-type-is-node-modules-media-typer.lock
+977 silly lockFile ef976552-pm-media-typer-0-3-0-package-tgz tar:///home/karan/.npm/media-typer/0.3.0/package.tgz
+978 verbose lock tar:///home/karan/.npm/media-typer/0.3.0/package.tgz /home/karan/.npm/ef976552-pm-media-typer-0-3-0-package-tgz.lock
+979 verbose tar unpack /home/karan/.npm/mime-types/2.1.1/package.tgz
+980 silly lockFile d00cdaad--type-is-node-modules-mime-types tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+981 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types /home/karan/.npm/d00cdaad--type-is-node-modules-mime-types.lock
+982 silly lockFile 3200be1d-npm-mime-types-2-1-1-package-tgz tar:///home/karan/.npm/mime-types/2.1.1/package.tgz
+983 verbose lock tar:///home/karan/.npm/mime-types/2.1.1/package.tgz /home/karan/.npm/3200be1d-npm-mime-types-2-1-1-package-tgz.lock
+984 silly gunzTarPerm modes [ '775', '664' ]
+985 silly gunzTarPerm modes [ '775', '664' ]
+986 silly gunzTarPerm extractEntry package.json
+987 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+988 silly gunzTarPerm extractEntry package.json
+989 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+990 silly gunzTarPerm extractEntry README.md
+991 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+992 silly gunzTarPerm extractEntry LICENSE
+993 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+994 silly gunzTarPerm extractEntry README.md
+995 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+996 silly gunzTarPerm extractEntry LICENSE
+997 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+998 silly gunzTarPerm extractEntry index.js
+999 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+1000 silly gunzTarPerm extractEntry HISTORY.md
+1001 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+1002 silly gunzTarPerm extractEntry index.js
+1003 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+1004 silly gunzTarPerm extractEntry HISTORY.md
+1005 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+1006 silly lockFile 248e5d5e-type-is-node-modules-media-typer tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1007 silly lockFile 248e5d5e-type-is-node-modules-media-typer tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1008 silly lockFile d00cdaad--type-is-node-modules-mime-types tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1009 silly lockFile d00cdaad--type-is-node-modules-mime-types tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1010 silly lockFile ef976552-pm-media-typer-0-3-0-package-tgz tar:///home/karan/.npm/media-typer/0.3.0/package.tgz
+1011 silly lockFile ef976552-pm-media-typer-0-3-0-package-tgz tar:///home/karan/.npm/media-typer/0.3.0/package.tgz
+1012 silly lockFile 3200be1d-npm-mime-types-2-1-1-package-tgz tar:///home/karan/.npm/mime-types/2.1.1/package.tgz
+1013 silly lockFile 3200be1d-npm-mime-types-2-1-1-package-tgz tar:///home/karan/.npm/mime-types/2.1.1/package.tgz
+1014 info preinstall media-typer@0.3.0
+1015 info preinstall mime-types@2.1.1
+1016 verbose readDependencies using package.json deps
+1017 verbose readDependencies using package.json deps
+1018 verbose readDependencies using package.json deps
+1019 silly resolved []
+1020 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1021 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1022 verbose linkStuff [ false,
+1022 verbose linkStuff   false,
+1022 verbose linkStuff   false,
+1022 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules' ]
+1023 info linkStuff media-typer@0.3.0
+1024 verbose linkBins media-typer@0.3.0
+1025 verbose linkMans media-typer@0.3.0
+1026 verbose rebuildBundles media-typer@0.3.0
+1027 verbose readDependencies using package.json deps
+1028 info install media-typer@0.3.0
+1029 verbose cache add [ 'mime-db@~1.13.0', null ]
+1030 verbose cache add name=undefined spec="mime-db@~1.13.0" args=["mime-db@~1.13.0",null]
+1031 verbose parsed url { protocol: null,
+1031 verbose parsed url   slashes: null,
+1031 verbose parsed url   auth: null,
+1031 verbose parsed url   host: null,
+1031 verbose parsed url   port: null,
+1031 verbose parsed url   hostname: null,
+1031 verbose parsed url   hash: null,
+1031 verbose parsed url   search: null,
+1031 verbose parsed url   query: null,
+1031 verbose parsed url   pathname: 'mime-db@~1.13.0',
+1031 verbose parsed url   path: 'mime-db@~1.13.0',
+1031 verbose parsed url   href: 'mime-db@~1.13.0' }
+1032 info postinstall media-typer@0.3.0
+1033 verbose cache add name="mime-db" spec="~1.13.0" args=["mime-db","~1.13.0"]
+1034 verbose parsed url { protocol: null,
+1034 verbose parsed url   slashes: null,
+1034 verbose parsed url   auth: null,
+1034 verbose parsed url   host: null,
+1034 verbose parsed url   port: null,
+1034 verbose parsed url   hostname: null,
+1034 verbose parsed url   hash: null,
+1034 verbose parsed url   search: null,
+1034 verbose parsed url   query: null,
+1034 verbose parsed url   pathname: '~1.13.0',
+1034 verbose parsed url   path: '~1.13.0',
+1034 verbose parsed url   href: '~1.13.0' }
+1035 verbose addNamed [ 'mime-db', '~1.13.0' ]
+1036 verbose addNamed [ null, '>=1.13.0-0 <1.14.0-0' ]
+1037 silly lockFile c43dbf9e-mime-db-1-13-0 mime-db@~1.13.0
+1038 verbose lock mime-db@~1.13.0 /home/karan/.npm/c43dbf9e-mime-db-1-13-0.lock
+1039 silly addNameRange { name: 'mime-db',
+1039 silly addNameRange   range: '>=1.13.0-0 <1.14.0-0',
+1039 silly addNameRange   hasData: false }
+1040 verbose request where is /mime-db
+1041 verbose request registry https://registry.npmjs.org/
+1042 verbose url raw /mime-db
+1043 verbose url resolving [ 'https://registry.npmjs.org/', './mime-db' ]
+1044 verbose url resolved https://registry.npmjs.org/mime-db
+1045 verbose request where is https://registry.npmjs.org/mime-db
+1046 info trying registry request attempt 1 at 13:35:00
+1047 verbose etag "4O6BBS8J77UDJUK0BX327ZAYO"
+1048 http GET https://registry.npmjs.org/mime-db
+1049 http 304 https://registry.npmjs.org/mime-db
+1050 silly registry.get cb [ 304,
+1050 silly registry.get   { date: 'Fri, 12 Jun 2015 08:05:00 GMT',
+1050 silly registry.get     via: '1.1 varnish',
+1050 silly registry.get     'cache-control': 'max-age=60',
+1050 silly registry.get     etag: '"4O6BBS8J77UDJUK0BX327ZAYO"',
+1050 silly registry.get     age: '30',
+1050 silly registry.get     connection: 'keep-alive',
+1050 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+1050 silly registry.get     'x-cache': 'HIT',
+1050 silly registry.get     'x-cache-hits': '5',
+1050 silly registry.get     'x-timer': 'S1434096300.689890,VS0,VE0',
+1050 silly registry.get     vary: 'Accept' } ]
+1051 verbose etag https://registry.npmjs.org/mime-db from cache
+1052 silly addNameRange number 2 { name: 'mime-db', range: '>=1.13.0-0 <1.14.0-0', hasData: true }
+1053 silly addNameRange versions [ 'mime-db',
+1053 silly addNameRange   [ '0.0.0',
+1053 silly addNameRange     '1.0.0',
+1053 silly addNameRange     '1.0.1',
+1053 silly addNameRange     '1.0.2',
+1053 silly addNameRange     '1.0.3',
+1053 silly addNameRange     '1.1.0',
+1053 silly addNameRange     '1.1.1',
+1053 silly addNameRange     '1.1.2',
+1053 silly addNameRange     '1.2.0',
+1053 silly addNameRange     '1.3.0',
+1053 silly addNameRange     '1.3.1',
+1053 silly addNameRange     '1.4.0',
+1053 silly addNameRange     '1.5.0',
+1053 silly addNameRange     '1.6.0',
+1053 silly addNameRange     '1.6.1',
+1053 silly addNameRange     '1.7.0',
+1053 silly addNameRange     '1.8.0',
+1053 silly addNameRange     '1.9.0',
+1053 silly addNameRange     '1.9.1',
+1053 silly addNameRange     '1.10.0',
+1053 silly addNameRange     '1.11.0',
+1053 silly addNameRange     '1.12.0',
+1053 silly addNameRange     '1.13.0' ] ]
+1054 verbose addNamed [ 'mime-db', '1.13.0' ]
+1055 verbose addNamed [ '1.13.0', '1.13.0' ]
+1056 silly lockFile 5c0027a1-mime-db-1-13-0 mime-db@1.13.0
+1057 verbose lock mime-db@1.13.0 /home/karan/.npm/5c0027a1-mime-db-1-13-0.lock
+1058 silly lockFile 5c0027a1-mime-db-1-13-0 mime-db@1.13.0
+1059 silly lockFile 5c0027a1-mime-db-1-13-0 mime-db@1.13.0
+1060 silly lockFile c43dbf9e-mime-db-1-13-0 mime-db@~1.13.0
+1061 silly lockFile c43dbf9e-mime-db-1-13-0 mime-db@~1.13.0
+1062 silly resolved [ { name: 'mime-db',
+1062 silly resolved     description: 'Media Type Database',
+1062 silly resolved     version: '1.13.0',
+1062 silly resolved     contributors: [ [Object], [Object], [Object] ],
+1062 silly resolved     license: 'MIT',
+1062 silly resolved     keywords: [ 'mime', 'db', 'type', 'types', 'database', 'charset', 'charsets' ],
+1062 silly resolved     repository: { type: 'git', url: 'https://github.com/jshttp/mime-db' },
+1062 silly resolved     devDependencies:
+1062 silly resolved      { bluebird: '2.9.27',
+1062 silly resolved        co: '4.5.4',
+1062 silly resolved        cogent: '1.0.1',
+1062 silly resolved        'csv-parse': '0.1.2',
+1062 silly resolved        gnode: '0.1.1',
+1062 silly resolved        istanbul: '0.3.14',
+1062 silly resolved        mocha: '1.21.5',
+1062 silly resolved        'raw-body': '2.1.0',
+1062 silly resolved        'stream-to-array': '2' },
+1062 silly resolved     files: [ 'HISTORY.md', 'LICENSE', 'README.md', 'db.json', 'index.js' ],
+1062 silly resolved     engines: { node: '>= 0.6' },
+1062 silly resolved     scripts:
+1062 silly resolved      { build: 'node scripts/build',
+1062 silly resolved        fetch: 'gnode scripts/fetch-apache && gnode scripts/fetch-iana && gnode scripts/fetch-nginx',
+1062 silly resolved        test: 'mocha --reporter spec --bail --check-leaks test/',
+1062 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+1062 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+1062 silly resolved        update: 'npm run fetch && npm run build' },
+1062 silly resolved     gitHead: 'cd78635e4f8baf85d91b4edcd071f77f94a08c53',
+1062 silly resolved     bugs: { url: 'https://github.com/jshttp/mime-db/issues' },
+1062 silly resolved     homepage: 'https://github.com/jshttp/mime-db',
+1062 silly resolved     _id: 'mime-db@1.13.0',
+1062 silly resolved     _shasum: 'fd6808168fe30835e7ea2205fc981d3b633e4e34',
+1062 silly resolved     _from: 'mime-db@~1.13.0',
+1062 silly resolved     _npmVersion: '1.4.28',
+1062 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+1062 silly resolved     maintainers: [ [Object], [Object] ],
+1062 silly resolved     dist:
+1062 silly resolved      { shasum: 'fd6808168fe30835e7ea2205fc981d3b633e4e34',
+1062 silly resolved        tarball: 'http://registry.npmjs.org/mime-db/-/mime-db-1.13.0.tgz' },
+1062 silly resolved     directories: {},
+1062 silly resolved     _resolved: 'https://registry.npmjs.org/mime-db/-/mime-db-1.13.0.tgz',
+1062 silly resolved     readme: 'ERROR: No README data found!' } ]
+1063 info install mime-db@1.13.0 into /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1064 info installOne mime-db@1.13.0
+1065 verbose node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db unbuild
+1066 verbose tar unpack /home/karan/.npm/mime-db/1.13.0/package.tgz
+1067 silly lockFile 2febe65e--mime-types-node-modules-mime-db tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1068 verbose lock tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db /home/karan/.npm/2febe65e--mime-types-node-modules-mime-db.lock
+1069 silly lockFile 13a69c87-n-npm-mime-db-1-13-0-package-tgz tar:///home/karan/.npm/mime-db/1.13.0/package.tgz
+1070 verbose lock tar:///home/karan/.npm/mime-db/1.13.0/package.tgz /home/karan/.npm/13a69c87-n-npm-mime-db-1-13-0-package-tgz.lock
+1071 silly gunzTarPerm modes [ '775', '664' ]
+1072 silly gunzTarPerm extractEntry package.json
+1073 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+1074 silly gunzTarPerm extractEntry README.md
+1075 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+1076 silly gunzTarPerm extractEntry LICENSE
+1077 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+1078 silly gunzTarPerm extractEntry index.js
+1079 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+1080 silly gunzTarPerm extractEntry db.json
+1081 silly gunzTarPerm modified mode [ 'db.json', 438, 436 ]
+1082 silly gunzTarPerm extractEntry HISTORY.md
+1083 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+1084 silly lockFile 2febe65e--mime-types-node-modules-mime-db tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1085 silly lockFile 2febe65e--mime-types-node-modules-mime-db tar:///home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1086 silly lockFile 13a69c87-n-npm-mime-db-1-13-0-package-tgz tar:///home/karan/.npm/mime-db/1.13.0/package.tgz
+1087 silly lockFile 13a69c87-n-npm-mime-db-1-13-0-package-tgz tar:///home/karan/.npm/mime-db/1.13.0/package.tgz
+1088 info preinstall mime-db@1.13.0
+1089 verbose readDependencies using package.json deps
+1090 verbose readDependencies using package.json deps
+1091 silly resolved []
+1092 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1093 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1094 verbose linkStuff [ false,
+1094 verbose linkStuff   false,
+1094 verbose linkStuff   false,
+1094 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules' ]
+1095 info linkStuff mime-db@1.13.0
+1096 verbose linkBins mime-db@1.13.0
+1097 verbose linkMans mime-db@1.13.0
+1098 verbose rebuildBundles mime-db@1.13.0
+1099 info install mime-db@1.13.0
+1100 info postinstall mime-db@1.13.0
+1101 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1102 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1103 verbose linkStuff [ false,
+1103 verbose linkStuff   false,
+1103 verbose linkStuff   false,
+1103 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is/node_modules' ]
+1104 info linkStuff mime-types@2.1.1
+1105 verbose linkBins mime-types@2.1.1
+1106 verbose linkMans mime-types@2.1.1
+1107 verbose rebuildBundles mime-types@2.1.1
+1108 verbose rebuildBundles [ 'mime-db' ]
+1109 info install mime-types@2.1.1
+1110 info postinstall mime-types@2.1.1
+1111 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is
+1112 info build /home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules/type-is
+1113 verbose linkStuff [ false,
+1113 verbose linkStuff   false,
+1113 verbose linkStuff   false,
+1113 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules/body-parser/node_modules' ]
+1114 info linkStuff type-is@1.6.3
+1115 verbose linkBins type-is@1.6.3
+1116 verbose linkMans type-is@1.6.3
+1117 verbose rebuildBundles type-is@1.6.3
+1118 verbose rebuildBundles [ 'media-typer', 'mime-types' ]
+1119 info install type-is@1.6.3
+1120 info postinstall type-is@1.6.3
+1121 verbose about to build /home/karan/Desktop/Node_Api/node_modules/body-parser
+1122 info build /home/karan/Desktop/Node_Api/node_modules/body-parser
+1123 verbose linkStuff [ false,
+1123 verbose linkStuff   false,
+1123 verbose linkStuff   false,
+1123 verbose linkStuff   '/home/karan/Desktop/Node_Api/node_modules' ]
+1124 info linkStuff body-parser@1.12.4
+1125 verbose linkBins body-parser@1.12.4
+1126 verbose linkMans body-parser@1.12.4
+1127 verbose rebuildBundles body-parser@1.12.4
+1128 verbose rebuildBundles [ 'bytes',
+1128 verbose rebuildBundles   'content-type',
+1128 verbose rebuildBundles   'debug',
+1128 verbose rebuildBundles   'depd',
+1128 verbose rebuildBundles   'iconv-lite',
+1128 verbose rebuildBundles   'on-finished',
+1128 verbose rebuildBundles   'qs',
+1128 verbose rebuildBundles   'raw-body',
+1128 verbose rebuildBundles   'type-is' ]
+1129 info install body-parser@1.12.4
+1130 info postinstall body-parser@1.12.4
+1131 verbose saving { 'body-parser': '^1.12.4' }
+1132 error Error: EACCES, open '/home/karan/Desktop/Node_Api/package.json'
+1132 error  { [Error: EACCES, open '/home/karan/Desktop/Node_Api/package.json']
+1132 error   errno: 3,
+1132 error   code: 'EACCES',
+1132 error   path: '/home/karan/Desktop/Node_Api/package.json' }
+1133 error Please try running this command again as root/Administrator.
+1134 error System Linux 3.11.0-23-generic
+1135 error command "/usr/bin/node" "/usr/bin/npm" "install" "--save" "body-parser"
+1136 error cwd /home/karan/Desktop/Node_Api
+1137 error node -v v0.10.38
+1138 error npm -v 1.4.28
+1139 error path /home/karan/Desktop/Node_Api/package.json
+1140 error code EACCES
+1141 error errno 3
+1142 error stack Error: EACCES, open '/home/karan/Desktop/Node_Api/package.json'
+1143 verbose exit [ 3, true ]
